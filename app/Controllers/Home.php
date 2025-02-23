@@ -24,4 +24,6 @@ class Home extends BaseController
         var_dump($data);
         echo "</pre>";
     }
+
+    
 }

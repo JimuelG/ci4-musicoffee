@@ -50,5 +50,45 @@
             </div>
         </div>
     </section>
+    <section class="cart-modal hidden">
+        <div class="container">
+            <div class="modal">
+                <img class="exit" src="<?= base_url("assets/images/exit.png") ?>" alt="exit">
+                <div class="left-modal">
+                    <img class="modal-img" src="<?= base_url("assets/images/hero.png") ?>" alt="product">
+                    <p class="modal-name"><?= "Cafe Latte" ?></p>
+                </div>
+                <div class="right-modal">
+                    <div class="size">
+                        <p>Size</p>
+                        <div class="size-opt">
+                            <div class="16oz">
+                                <input type="radio" name="size" id="16oz">
+                                <label for="16oz">16oz - P <?= 89?>.00</label>
+                            </div>
+                            <div class="22oz">
+                                <input type="radio" name="size" id="22oz" >
+                                <label for="22oz">22oz - P <?= 89 + 20 ?>.00</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <div class="quantity-opt">
+                            <img class="subtract" src="<?= base_url("assets/images/subtract.png") ?>" alt="">
+                            <input class="quantity-val" type="text" value="1" disabled>
+                            <img class="add" src="<?= base_url("assets/images/add_black.png") ?>" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <input class="total-price" type="text" value="">
+                        <input class="total-add" type="submit" value="ADD">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="<?= base_url("assets/js/menu.js") ?>"></script>
 </body>
 </html>

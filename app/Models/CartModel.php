@@ -3,14 +3,14 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class ProductModel extends Model
+class CartModel extends Model
 {
-    protected $table = 'product';
-    protected $primaryKey = 'pId';
+    protected $table = 'cart';
+    protected $primaryKey = 'cId';
     protected $allowedFields = [
         'name',
-        'description',
-        'category',
+        'size',
+        'addOn',
         'price',
         'quantity',
         'pictureUrl',
