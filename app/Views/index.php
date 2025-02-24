@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musicoffee</title>
-    <link rel="stylesheet" href="<?= base_url("assets/css/style.css"); ?> ">
-</head>
+<?= view('header/header') ?>
+
 <body>
     <section class="nav">
         <div class="container">
@@ -59,5 +53,5 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+
+<?= view('footer') ?>

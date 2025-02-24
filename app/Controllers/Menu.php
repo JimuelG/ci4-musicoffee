@@ -14,6 +14,25 @@ class Menu extends BaseController
         return view('menu', $data);
     }
 
+    public function is_selected()
+    {
+        $p = new ProductModel();
+        $data['pr'] = $p->findAll();
+
+        // Check if a product was selected
+        if ($this->request->getMethod() === 'post') {
+            $data['selected_product'] = [
+                'id' => $this->request->getPost('product_id'),
+                'name' => $this->request->getPost('name'),
+                'price' => $this->request->getPost('price'),
+                'img' => $this->request->getPost('img'),
+                'quantity' => 1
+            ];
+        }
+
+        return view('menu', $data);
+    }
+
     public function cart()
     {
         $c = new CartModel();

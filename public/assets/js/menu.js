@@ -55,4 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
+
+    reg.addEventListener("click", function() {
+        // let currentValue = parseInt(quantity.value, 10);
+        totalPrice.value = 89 * quantity.value;
+    });
+
+    large.addEventListener("click", function() {
+        totalPrice.value = 109 * quantity.value
+        
+    });
 });

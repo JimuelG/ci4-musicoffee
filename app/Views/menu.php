@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musicoffee</title>
-    <link rel="stylesheet" href="<?= base_url("assets/css/style.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("assets/css/menu.css") ?>">
-</head>
+<?= view('header/header') ?>
+
 <body>
     <section class="nav">
         <div class="container">
@@ -41,7 +34,15 @@
                             <img src="" alt="">
                         </div>
                         <div class="menu-des">
-                            <p class="add-to-cart"><img src="<?= base_url("assets/images/add.png") ?>" alt=""></p>
+                            <form action="<?= base_url('menu') ?>" method="POST">
+                                <input type="hidden" name="product_id" value="<?= $p['pId'] ?>">
+                                <input type="hidden" name="name" value="<?= $p['name'] ?>">
+                                <input type="hidden" name="price" value="<?= $p['price'] ?>">
+                                <input type="hidden" name="img" value="<?= base_url("assets/images/hero.png") ?>">
+                                <button type="submit" class="add-to-cart">
+                                    <img src="<?= base_url("assets/images/add.png") ?>" alt="Add to cart">
+                                </button>
+                            </form>
                             <p class="menu-name"><?= $p['name'] ?></p>
                             <p class="menu-price"><?= "P " . $p['price'] . ".00" ?></p>
                         </div>
@@ -89,6 +90,4 @@
             </div>
         </div>
     </section>
-    <script src="<?= base_url("assets/js/menu.js") ?>"></script>
-</body>
-</html>
+<?= view('footer') ?>
