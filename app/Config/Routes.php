@@ -13,3 +13,4 @@ $routes->post('/menu', 'Menu::is_selected');
 
 $routes->get('/admin/dashboard', 'Admin::index');
 $routes->get('/admin/products', 'Admin::products');
+$routes->post('/admin/add', 'Admin::addProduct');

@@ -31,7 +31,7 @@
                 <?php foreach ($pr as $p): ?>
                     <div class="menu-item">
                         <div class="menu-img">
-                            <img src="" alt="">
+                            <img src="<?= base_url("assets/images/products/") . $p['pictureUrl'] ?>" alt="">
                         </div>
                         <div class="menu-des">
                             <form action="<?= base_url('menu') ?>" method="POST">

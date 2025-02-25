@@ -11,8 +11,7 @@ class ProductModel extends Model
         'name',
         'description',
         'category',
-        'basePrice',
-        'quantity',
+        'price',
         'pictureUrl',
         'status'
     ];
