@@ -14,30 +14,28 @@ class Menu extends BaseController
         return view('menu', $data);
     }
 
-    public function is_selected()
-    {
-        $p = new ProductModel();
-        $data['pr'] = $p->findAll();
-
-        // Check if a product was selected
-        if ($this->request->getMethod() === 'post') {
-            $data['selected_product'] = [
-                'id' => $this->request->getPost('product_id'),
-                'name' => $this->request->getPost('name'),
-                'price' => $this->request->getPost('price'),
-                'img' => $this->request->getPost('img'),
-                'quantity' => 1
-            ];
-        }
-
-        return view('menu', $data);
-    }
-
     public function cart()
     {
         $c = new CartModel();
-        $data['cr'] = $c->findAll();
-        return $data;
+        $request = service('requset');
+        
+        $customerName = "Jimuel Gaas";
+        $itemName = $request->getPost('productName');
+        $size = $request->getPost('productSize');
+        $quantity = $request->getPost('quantity');
+        $totalPrice = $request->getPost('totalPrice');
+        $pictureUrl = $request->getPost('productImg');
+
+        $c->insert([
+            'customer_name' => $customerName,
+            'item_name' => $itemName,
+            'size' => $size,
+            'price' => $totalPrice,
+            'quantity' => $quantity,
+            'pictureUrl' => $pictureUrl
+        ]);
+        
+        return $this->response->setJSON(['status' => 'success']);
     }
 }
 

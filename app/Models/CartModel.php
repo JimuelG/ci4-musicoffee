@@ -8,9 +8,9 @@ class CartModel extends Model
     protected $table = 'cart';
     protected $primaryKey = 'cId';
     protected $allowedFields = [
-        'name',
+        'customer_name',
+        'item_name',
         'size',
-        'addOn',
         'price',
         'quantity',
         'pictureUrl',

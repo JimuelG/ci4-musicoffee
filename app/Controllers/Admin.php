@@ -41,7 +41,7 @@ class Admin extends BaseController
                 return redirect()->back()->with('error', 'Invalid file type. Only JPG and PNG are allowed.');
             }
         }
-
+        
         $productModel->insert($data);
         return redirect()->to('/admin/products')->with('success', 'Product added successfully!');
     }
