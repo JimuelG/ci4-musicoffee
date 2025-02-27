@@ -13,6 +13,7 @@
                 $(".total-price").text("Total P " + productPrice);
                 $(".cart-modal").removeClass("hidden");
                 $(".quantity-val").val(1);
+                
                 $(".size-16oz").text("16oz - P " + productPrice + ".00");
                 $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
 
@@ -29,14 +30,14 @@
             $(".increase-qty").click(function (){
                 let quantity = parseInt($(".quantity-val").val());
                 $(".quantity-val").val(quantity + 1);
-                updateTotal()
+                updateTotal();
             });
 
             $(".decrease-qty").click(function(){
                 let quantity = parseInt($(".quantity-val").val());
                 if (quantity > 1) {
                     $(".quantity-val").val(quantity - 1);
-                    updateTotal()
+                    updateTotal();
                 }
             });
 
@@ -54,14 +55,14 @@
             };
 
             $(".total-add").click(function(){
-                let productName = $('modal-name').text();
-                let productSize = $('.size-opt input:checked').siblings("label").text();
+                let productName = $(".modal-name").text();
+                let productSize = $(".size-opt input:checked").attr("id");
                 let quantity = $(".quantity-val").val();
-                let productImg = $('.modal-img').attr();
+                let productImg = $(".modal-img").attr("src");
                 let totalPrice = $(".total-price").text().replace("Total P ", "").trim();
 
                 $.ajax({
-                    url: "<?= base_url('/cart') ?>",
+                    url: "<?= base_url('/addCart') ?>",
                     type: "POST",
                     data: {
                         productName: productName,
@@ -71,9 +72,9 @@
                         productImg: productImg
                     },
                     success: function(response) {
-                        if (response.staus === "success") {
+                        if (response.status === "success") {
                             alert("Item added to cart successfully!");
-                            window.location.href = <?= base_url('/menu') ?>;
+                            window.location.href = "<?= base_url('/menu') ?>";
                             $(".cart-modal").addClass("hidden");
                         }
                     },
@@ -82,6 +83,7 @@
                     }
                 });
             });
+
         });
     </script>
 </body>

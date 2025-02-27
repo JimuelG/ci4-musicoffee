@@ -14,10 +14,10 @@ class Menu extends BaseController
         return view('menu', $data);
     }
 
-    public function cart()
+    public function addCart()
     {
         $c = new CartModel();
-        $request = service('requset');
+        $request = service('request');
         
         $customerName = "Jimuel Gaas";
         $itemName = $request->getPost('productName');
@@ -36,6 +36,22 @@ class Menu extends BaseController
         ]);
         
         return $this->response->setJSON(['status' => 'success']);
+    }
+
+    public function cart()
+    {
+        $c = new CartModel();
+        $request = service("request");
+
+        $customerName = "Jimuel Gaas";
+
+        $today = date("Y-m-d");
+
+        $cartItem = $c->where('customer_name', $customerName)
+                      ->where('DATE(cCreated_at)', $today)
+                      ->findAll();
+        var_dump($cartItem);
+        // return $this->response->setJSON(['status' => 'success', 'cart' => $cartItem]);
     }
 }
 

@@ -24,7 +24,7 @@
                 <p class="menu-crumbs">Menu</p>
                 <div class="cart">
                     <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
-                    <p class="cart-item">0</p>
+                    <a href="<?= base_url("/cart") ?>"><p class="cart-item">0</p></a>
                 </div>
             </div>
             <div class="menu-item-container">
