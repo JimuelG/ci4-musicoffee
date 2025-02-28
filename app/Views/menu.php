@@ -1,30 +1,16 @@
 <?= view('header/header') ?>
 
-<body>
-    <section class="nav">
-        <div class="container">
-            <div class="nav-bar">
-            <div class="left-nav">
-                        <a id="home" href="/">Home</a>
-                        <a>About us</a>
-                    </div>
-                    <div class="center-nav">
-                        <img class="logo" src="<?= base_url("assets/images/logo2.png") ?>" alt="logo">
-                    </div>
-                    <div class="right-nav">
-                        <a id="menu" href="/menu">Menu</a>
-                        <a>Contact Us</a>
-                    </div>
-            </div>
-        </div>
-    </section>
+<?= view('header/nav') ?>
+
     <section class="menu">
         <div class="container">
             <div class="crumbs">
                 <p class="menu-crumbs">Menu</p>
                 <div class="cart">
-                    <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
-                    <a href="<?= base_url("/cart") ?>"><p class="cart-item">0</p></a>
+                    <a href="<?= base_url("/cart") ?>">
+                        <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
+                        <p class="cart-item">0</p>
+                    </a>
                 </div>
             </div>
             <div class="menu-item-container">
@@ -96,4 +82,5 @@
             </div>
         </div>
     </section>
+    
 <?= view('footer') ?>

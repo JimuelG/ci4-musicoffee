@@ -11,6 +11,7 @@ $routes->get('/products', 'Home::product');
 $routes->get('/menu', 'Menu::index');
 $routes->post('/addCart', 'Menu::addCart');
 $routes->get('/cart', 'Menu::cart');
+$routes->get('/orders', 'Order::index');
 
 $routes->get('/admin/dashboard', 'Admin::index');
 $routes->get('/admin/products', 'Admin::products');

@@ -40,18 +40,20 @@ class Menu extends BaseController
 
     public function cart()
     {
+        date_default_timezone_set("Asia/Manila");
         $c = new CartModel();
-        $request = service("request");
 
         $customerName = "Jimuel Gaas";
 
         $today = date("Y-m-d");
 
-        $cartItem = $c->where('customer_name', $customerName)
+        $cartItem['cr'] = $c->where('customer_name', $customerName)
                       ->where('DATE(cCreated_at)', $today)
                       ->findAll();
-        var_dump($cartItem);
-        // return $this->response->setJSON(['status' => 'success', 'cart' => $cartItem]);
+
+        
+
+        return view('cart', $cartItem);
     }
 }
 
