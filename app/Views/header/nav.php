@@ -4,7 +4,7 @@
         <div class="container">
             <div class="nav-bar">
             <div class="left-nav">
-                        <a id="home" href="/">Home</a>
+                        <a id="home" href="<?= base_url('/') ?>">Home</a>
                         <a>About us</a>
                     </div>
                     <div class="center-nav">
