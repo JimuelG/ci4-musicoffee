@@ -1,0 +1,33 @@
+.orders{
+    display: flex;
+    justify-content: center;
+}
+
+.orders .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    /* width: 100%; */
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.right .right-detail{
+    display: flex;
+    justify-content: space-between;
+}

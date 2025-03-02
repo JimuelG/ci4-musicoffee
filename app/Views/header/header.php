@@ -6,4 +6,5 @@
     <title>Musicoffee</title>
     <link rel="stylesheet" href="<?= base_url("assets/css/style.css") ?>">
     <link rel="stylesheet" href="<?= base_url("assets/css/menu.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/css/orders.css") ?>">
 </head>

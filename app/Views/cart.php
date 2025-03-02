@@ -31,7 +31,7 @@
                 <?= "P " . $total_price . ".00" ?>
             </div>
             <div class="sumbit">
-                <input type="submit" value="SUMBIT">
+                <a href="<?= base_url('orders') ?>">SUBMIT</a>
             </div>
         </div>
     </section>
