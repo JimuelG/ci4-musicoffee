@@ -12,28 +12,43 @@
                 <hr>
                 <div class="table-item">
                     <table>
-                        <tr>
-                            <th>Product Details</th>
-                            <th>Quantity</th>
-                            <th>Price</th>
-                            <th>Total</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="" alt="">
-                                <div class="product-detail">
-                                    <p>Spanish Latte</p>
-                                    <p>16oz</p>
-                                </div>
-                            </td>
-                            <td>
-                                <img src="" alt="">
-                                <input type="text" name="" id="">
-                                <img src="" alt="">
-                            </td>
-                            <td>P 89.00</td>
-                            <td>P 89.00</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th>Product Details</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                                $total_price = 0;
+                                foreach($or as $o): 
+                                    $total_price += $o['price'];
+                                ?>
+                            <tr class="product-item">
+                                <td>
+                                    <div class="product-container">
+                                        <img class="product-img" src="" alt="">
+                                        <div class="product-detail">
+                                            <p><?= $o['item_name'] ?></p>
+                                            <p><?= $o['size'] ?></p>
+                                            <a href="">remove</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="product-quantity">
+                                        <img src="<?= base_url('assets/images/add_black.png') ?>" alt="">
+                                        <input type="text" name="" id="" value="<?= $o['quantity'] ?>">
+                                        <img src="<?= base_url('assets/images/subtract.png') ?>" alt="">
+                                    </div>
+                                </td>
+                                <td><?= "P " . $o['price']?></td>
+                                <td><?= "P " . $o['price'] * $o['quantity'] . ".00"?></td>
+                            </tr>
+                            <?php endforeach; ?>
+                        </tbody>
                     </table>
                 </div>
                 <div class="continue-shopping">
@@ -42,19 +57,25 @@
             </div>
             
             <div class="right">
-                <h1>Order Summary</h1>
-                <hr>
-                <div class="right-detail">
-                    <p>ITEMS(3)</p>
-                    <p>P 356.00</p>
+                <div class="right-top">
+                    <div class="right-header">
+                        <h1>Order Summary</h1>
+                    </div>
+                    <hr>
+                    <div class="right-detail">
+                        <p>ITEMS(3)</p>
+                        <p>P 356.00</p>
+                    </div>
+                    <div class="right-option">
+                        <input type="radio" name="tpye" id="dine-in">
+                        <label for="dine-in">Dine-in</label>
+                        <input type="radio" name="tpye" id="take-out">
+                        <label for="take-out">Take-out</label>
+                    </div>
                 </div>
-                <div class="right-option">
-                    <input type="radio" name="tpye" id="dine-in">
-                    <label for="dine-in">Dine-in</label>
-                    <input type="radio" name="tpye" id="take-out">
-                    <label for="take-out">Take-out</label>
+                <div class="right-bottom">    
+                    <input type="button" value="CHECKOUT">
                 </div>
-                <input type="button" value="CHECKOUT">
             </div>
         </div>
     </section>

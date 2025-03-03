@@ -7,7 +7,7 @@
             <div class="crumbs">
                 <p class="menu-crumbs">Menu</p>
                 <div class="cart">
-                    <a href="<?= base_url("/cart") ?>">
+                    <a href="<?= base_url("/orders") ?>">
                         <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
                         <p class="cart-item">0</p>
                     </a>

@@ -38,22 +38,22 @@ class Menu extends BaseController
         return $this->response->setJSON(['status' => 'success']);
     }
 
-    public function cart()
+    public function orders()
     {
         date_default_timezone_set("Asia/Manila");
-        $c = new CartModel();
+        $o = new CartModel();
 
         $customerName = "Jimuel Gaas";
 
         $today = date("Y-m-d");
 
-        $cartItem['cr'] = $c->where('customer_name', $customerName)
+        $orderItem['or'] = $o->where('customer_name', $customerName)
                       ->where('DATE(cCreated_at)', $today)
                       ->findAll();
 
         
 
-        return view('cart', $cartItem);
+        return view('orders', $orderItem);
     }
 }
 

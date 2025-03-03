@@ -12,3 +12,59 @@ in APPPATH\Views\cart.php on line 8.
  9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-03 18:16:07 --> ErrorException: Undefined variable $cr
+[Method: GET, Route: orders]
+in APPPATH\Views\orders.php on line 26.
+ 1 APPPATH\Views\orders.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cr', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\Order.php(13): view('orders')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-03 18:18:33 --> ErrorException: Undefined variable $or
+[Method: GET, Route: orders]
+in APPPATH\Views\orders.php on line 26.
+ 1 APPPATH\Views\orders.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $or', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\Order.php(13): view('orders')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-03 18:18:36 --> ErrorException: Undefined variable $or
+[Method: GET, Route: orders]
+in APPPATH\Views\orders.php on line 26.
+ 1 APPPATH\Views\orders.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $or', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\Order.php(13): view('orders')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-03 18:18:57 --> ErrorException: Undefined variable $or
+[Method: GET, Route: orders]
+in APPPATH\Views\orders.php on line 26.
+ 1 APPPATH\Views\orders.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $or', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\orders.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('orders', [], true)
+ 5 APPPATH\Controllers\Order.php(13): view('orders')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

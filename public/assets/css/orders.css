@@ -1,33 +1,142 @@
 .orders{
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .orders .container{
     display: flex;
-    justify-content: space-between;
     background-color: #fff;
-    /* width: 100%; */
+    width: 60%;
+    padding: 0px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.orders hr{
+    margin-bottom: 16px;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
+    padding: 64px;
 }
 
 .left-header{
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table-item{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-item table{
+    width: 100%;
+}
+
+
+.table-item th{
+    text-align: left;
+    font-weight: 600;
+}
+
+.table-item th:nth-child(1){
+    width: 40%;
+    text-align: left;
+}
+
+.table-item th:nth-child(2){
+    width: 30%;
+    text-align: center;
+}
+
+.table-item th:nth-child(3){
+    width: 15%;
+}
+
+.table-item th:nth-child(4){
+    width: 15%;
+    text-align: right;
+}
+
+/* .product-item{
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 24px;
+} */
+
+.product-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-img {
+    width: 100px;
+    height: 100px;
+}
+
+.product-quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-quantity input{
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.product-quantity img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.product-item td:nth-child(4){
+    text-align: right;
 }
 
 .right{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 40%;
+    padding: 64px;
+    background-color: #023D4E;
+    color: #fff;
 }
 
-.right .right-detail{
+.right-header{
+    margin-bottom: 20px;
+}
+
+.right-detail{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.right-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.right-bottom input{
+    padding: 16px 64px;
+    font-weight: bold;
+    background-color: #008080;
+    color: #fff;
+    border: none;
 }
