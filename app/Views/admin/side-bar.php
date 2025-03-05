@@ -6,9 +6,9 @@
         </div>
         <div class="bottom">
             <div class="links">
-                <a href="/admin/dashboard" class="">Dashboard</a>
-                <a href="/admin/products" class="">Products</a>
-                <a href="/orders" class="">Orders</a>
+                <a href="<?= base_url('/admin/dashboard')?>" class="">Dashboard</a>
+                <a href="<?= base_url('/admin/products')?>" class="">Products</a>
+                <a href="<?= base_url('/admin/orders')?>" class="">Orders</a>
             </div>
         </div>
     </div>

@@ -25,7 +25,7 @@
                 <div class="left-hero">
                     <h1>Your daily dose of harmony</h1>
                     <p>Musicoffee, your emotional support in a cup</p>
-                    <a href="/menu"><input type="submit" class="cta" value="SHOP NOW"></a>
+                    <a href="<?= base_url('/menu') ?>"><input type="submit" class="cta" value="SHOP NOW"></a>
                 </div>
                 <div class="right-hero">
                     <img src="<?= base_url("assets/images/hero.png") ?>" alt="hero_image" class="hero-img">

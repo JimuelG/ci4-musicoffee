@@ -57,10 +57,12 @@
             $(".total-add").click(function(){
                 let productName = $(".modal-name").text();
                 let productSize = $(".size-opt input:checked").attr("id");
+                let productPrice = $(".size-opt input:checked").data("price");
                 let quantity = $(".quantity-val").val();
                 let productImg = $(".modal-img").attr("src");
                 let totalPrice = $(".total-price").text().replace("Total P ", "").trim();
 
+                console.log(productPrice);
                 $.ajax({
                     url: "<?= base_url('/addCart') ?>",
                     type: "POST",
@@ -68,7 +70,7 @@
                         productName: productName,
                         productSize: productSize,
                         quantity: quantity,
-                        totalPrice: totalPrice,
+                        productPrice: productPrice,
                         productImg: productImg
                     },
                     success: function(response) {
@@ -84,6 +86,35 @@
                 });
             });
 
+            $(".add-qty").click(function (){
+                let cartId = $(this).data("id");
+                let quantityInput = $(".quantity-input[data-id='" + cartId + "']");
+                let totalPrice = $(".priceTotal[data-id='" + cartId + "']");
+                let price = parseInt($(".priceTotal[data-id='" + cartId + "']").data("price"));
+                let newQuantity = parseInt(quantityInput.val()) + 1;
+                quantityInput.val(newQuantity);
+                let newTotalPrice = price * newQuantity;
+                totalPrice.text ("P " + newTotalPrice.toFixed(2));
+            });
+            
+            $(".subtract-qty").click(function(){
+                let cartId = $(this).data("id");
+                let quantityInput = $(".quantity-input[data-id='" + cartId + "']");
+                let totalPrice = $(".priceTotal[data-id='" + cartId + "']");
+                let price = parseInt($(".priceTotal[data-id='" + cartId + "']").data("price"));
+                let newQuantity = parseInt(quantityInput.val());
+                if (newQuantity > 1){
+                    newQuantity -= 1;
+                    quantityInput.val(newQuantity);
+                    let newTotalPrice = price * newQuantity;
+                    totalPrice.text ("P " + newTotalPrice.toFixed(2));
+                }
+            });
+
+            function updatePrice(cartId, newQuantity){
+                let totalPrice = $(this).data("total");
+
+            }
         });
     </script>
 </body>

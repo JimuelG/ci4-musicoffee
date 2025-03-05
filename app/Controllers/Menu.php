@@ -23,14 +23,14 @@ class Menu extends BaseController
         $itemName = $request->getPost('productName');
         $size = $request->getPost('productSize');
         $quantity = $request->getPost('quantity');
-        $totalPrice = $request->getPost('totalPrice');
+        $productPrice = $request->getPost('productPrice');
         $pictureUrl = $request->getPost('productImg');
 
         $c->insert([
             'customer_name' => $customerName,
             'item_name' => $itemName,
             'size' => $size,
-            'price' => $totalPrice,
+            'price' => $productPrice,
             'quantity' => $quantity,
             'pictureUrl' => $pictureUrl
         ]);
@@ -50,8 +50,6 @@ class Menu extends BaseController
         $orderItem['or'] = $o->where('customer_name', $customerName)
                       ->where('DATE(cCreated_at)', $today)
                       ->findAll();
-
-        
 
         return view('orders', $orderItem);
     }

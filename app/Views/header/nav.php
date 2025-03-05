@@ -11,7 +11,7 @@
                         <img class="logo" src="<?= base_url("assets/images/logo2.png") ?>" alt="logo">
                     </div>
                     <div class="right-nav">
-                        <a id="menu" href="/menu">Menu</a>
+                        <a id="menu" href="<?= base_url('/menu') ?>">Menu</a>
                         <a>Contact Us</a>
                     </div>
             </div>

@@ -43,7 +43,7 @@ class Admin extends BaseController
         }
         
         $productModel->insert($data);
-        return redirect()->to('/admin/products')->with('success', 'Product added successfully!');
+        return redirect()->to(base_url('/admin/products'))->with('success', 'Product added successfully!');
     }
 
 }

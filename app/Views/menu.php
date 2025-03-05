@@ -48,11 +48,11 @@
                             <p>Size</p>
                             <div class="size-opt">
                                 <div class="16oz">
-                                    <input type="radio" name="size" id="16oz" checked>
+                                    <input type="radio" name="size" id="16oz" data-price="89" checked>
                                     <label class="size-16oz" for="16oz" data-price="89"></label>
                                 </div>
                                 <div class="22oz">
-                                    <input type="radio" name="size" id="22oz" >
+                                    <input type="radio" name="size" id="22oz" data-price="109">
                                     <label class="size-22oz" for="22oz" data-price="109"></label>
                                 </div>
                             </div>

@@ -29,7 +29,7 @@
                             <tr class="product-item">
                                 <td>
                                     <div class="product-container">
-                                        <img class="product-img" src="" alt="">
+                                        <img class="product-img" src="<?= $o['pictureUrl']?>" alt="">
                                         <div class="product-detail">
                                             <p><?= $o['item_name'] ?></p>
                                             <p><?= $o['size'] ?></p>
@@ -39,13 +39,40 @@
                                 </td>
                                 <td>
                                     <div class="product-quantity">
-                                        <img src="<?= base_url('assets/images/add_black.png') ?>" alt="">
-                                        <input type="text" name="" id="" value="<?= $o['quantity'] ?>">
-                                        <img src="<?= base_url('assets/images/subtract.png') ?>" alt="">
+                                        <img 
+                                            class="subtract-qty" 
+                                            data-id="<?= $o['cId'] ?>" 
+                                            src="<?= base_url('assets/images/subtract.png') ?>" 
+                                            alt="">
+                                        <input 
+                                            type="text" 
+                                            class="quantity-input" 
+                                            data-id="<?= $o['cId'] ?>"
+                                            value="<?= $o['quantity'] ?>"
+                                            disabled>
+                                        <img 
+                                            class="add-qty" 
+                                            data-id="<?= $o['cId'] ?>" 
+                                            src="<?= base_url('assets/images/add_black.png') ?>" 
+                                            alt="">
                                     </div>
                                 </td>
-                                <td><?= "P " . $o['price']?></td>
-                                <td><?= "P " . $o['price'] * $o['quantity'] . ".00"?></td>
+                                <td><label 
+                                        data-basePrice="<?= $o['price'] ?>" 
+                                        for="">
+                                        <?= "P " . $o['price'] . ".00"?>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label 
+                                        class="priceTotal"
+                                        data-price="<?= $o['price'] ?>"
+                                        data-id="<?= $o['cId'] ?>"
+                                        data-total="<?= $o['price'] * $o['quantity'] ?>" 
+                                        for="">
+                                        <?= "P " . $o['price'] * $o['quantity'] . ".00"?>
+                                    </label>
+                                </td>
                             </tr>
                             <?php endforeach; ?>
                         </tbody>
@@ -64,7 +91,7 @@
                     <hr>
                     <div class="right-detail">
                         <p>ITEMS(3)</p>
-                        <p>P 356.00</p>
+                        <p data-summary></p>
                     </div>
                     <div class="right-option">
                         <input type="radio" name="tpye" id="dine-in">
