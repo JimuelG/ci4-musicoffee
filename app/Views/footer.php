@@ -1,6 +1,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
+            updateOrderTotal();
+
+            $(".continue-shopping").click(function (){
+                window.location.href = "<?= base_url("/menu") ?>";
+            });
+
             $(".add-to-cart").click(function(){
                 let productId = $(this).data("id");
                 let productName = $(this).data("name");
@@ -20,6 +26,7 @@
                 $(".modal-name").attr("data-price", productPrice);
                 $("#16oz").prop("checked", true);
                 updateTotal();
+                
 
             });
 
@@ -95,6 +102,7 @@
                 quantityInput.val(newQuantity);
                 let newTotalPrice = price * newQuantity;
                 totalPrice.text ("P " + newTotalPrice.toFixed(2));
+                updateOrderTotal();
             });
             
             $(".subtract-qty").click(function(){
@@ -109,11 +117,29 @@
                     let newTotalPrice = price * newQuantity;
                     totalPrice.text ("P " + newTotalPrice.toFixed(2));
                 }
+                updateOrderTotal();
             });
 
-            function updatePrice(cartId, newQuantity){
-                let totalPrice = $(this).data("total");
+            function updateOrderTotal(){
+                let totalCartPrice = 0;
+                let itemCount = 0;
+                let customer_name = $(this).find(".priceTotal").data("name");
+                let itemDate = $(this).find(".priceTotal").data("date");
 
+                $(".product-item").each(function (){
+                    let itemPrice = parseInt($(this).find(".priceTotal").text().replace("P ", "").trim());
+
+                    itemCount++;
+                    
+                    if(!isNaN(itemPrice)) {
+                        totalCartPrice += itemPrice;
+                    }
+                });
+
+                $(".itemCount").text(itemCount + " items(s)");
+                $(".itemCount2").text("ITEMS (" + itemCount +")");
+                
+                $(".cart-total").text("P " + totalCartPrice.toFixed(2));
             }
         });
     </script>

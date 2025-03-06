@@ -7,7 +7,7 @@
             <div class="left">
                 <div class="left-header">
                     <h1>Shopping Cart</h1>
-                    <h1>3 items(s)</h1>
+                    <h1 class="itemCount"></h1>
                 </div>
                 <hr>
                 <div class="table-item">
@@ -66,6 +66,7 @@
                                 <td>
                                     <label 
                                         class="priceTotal"
+                                        data-name="<?= $o['customer_name'] ?>"
                                         data-price="<?= $o['price'] ?>"
                                         data-id="<?= $o['cId'] ?>"
                                         data-total="<?= $o['price'] * $o['quantity'] ?>" 
@@ -79,7 +80,8 @@
                     </table>
                 </div>
                 <div class="continue-shopping">
-                <img src="" alt="">
+                    <img src="" alt="">
+                    <label for="">Continue Shopping</label>
                 </div>
             </div>
             
@@ -90,8 +92,8 @@
                     </div>
                     <hr>
                     <div class="right-detail">
-                        <p>ITEMS(3)</p>
-                        <p data-summary></p>
+                        <p class="itemCount2"></p>
+                        <p class="cart-total"></p>
                     </div>
                     <div class="right-option">
                         <input type="radio" name="tpye" id="dine-in">

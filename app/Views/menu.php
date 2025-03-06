@@ -9,7 +9,7 @@
                 <div class="cart">
                     <a href="<?= base_url("/orders") ?>">
                         <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
-                        <p class="cart-item">0</p>
+                        <p class="cart-item1"><?= $cart_count ?></p>
                     </a>
                 </div>
             </div>

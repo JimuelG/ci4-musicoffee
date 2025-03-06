@@ -9,8 +9,18 @@ class Menu extends BaseController
 {
     public function index()
     {
+    
         $p = new ProductModel();
+        $o = new CartModel();
+
+        $customerName = "Jimuel Gaas";
+        $today = date("Y-m-d");
+
+        $cartCount = $o->getOrdersByCustomer($customerName,$today)->countAllResults();
+
         $data['pr'] = $p->findAll();
+        $data['cart_count'] = $cartCount;
+
         return view('menu', $data);
     }
 
@@ -44,15 +54,14 @@ class Menu extends BaseController
         $o = new CartModel();
 
         $customerName = "Jimuel Gaas";
-
         $today = date("Y-m-d");
 
-        $orderItem['or'] = $o->where('customer_name', $customerName)
-                      ->where('DATE(cCreated_at)', $today)
-                      ->findAll();
+        $orderItem['or'] = $o->getOrdersByCustomer($customerName, $today)->findAll();
 
         return view('orders', $orderItem);
     }
+
+    
 }
 
 

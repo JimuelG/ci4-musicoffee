@@ -16,6 +16,17 @@ class CartModel extends Model
         'pictureUrl',
         'status'
     ];
+
+    public function getOrdersByCustomer($customerName, $date = null)
+    {
+        if ($date === null)
+        {
+            $date = date("Y-m-d");
+        }
+
+        return $this->where('customer_name', $customerName)
+                    ->where('DATE(cCreated_at)', $date);
+    }
 } 
 
 ?>

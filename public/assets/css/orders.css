@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    max-height: 70vh;
     
 }
 
@@ -35,10 +36,13 @@
 .table-item{
     width: 100%;
     border-collapse: collapse;
+    max-height: 60vh;
+    overflow-y: scroll;
 }
 
 .table-item table{
     width: 100%;
+    
 }
 
 
@@ -141,4 +145,8 @@
     background-color: #008080;
     color: #fff;
     border: none;
+}
+
+.continue-shopping{
+    cursor: pointer;
 }
