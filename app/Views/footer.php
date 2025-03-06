@@ -23,6 +23,9 @@
                 $(".size-16oz").text("16oz - P " + productPrice + ".00");
                 $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
 
+                $("#16oz").data("price", productPrice);
+                $("#22oz").data("price", productPrice + 20);
+
                 $(".modal-name").attr("data-price", productPrice);
                 $("#16oz").prop("checked", true);
                 updateTotal();
@@ -53,7 +56,8 @@
             });
             
             function updateTotal() {
-                let price = parseFloat($(".size-opt input:checked").siblings("label").data("price"));
+                let selectedSize = $(".size-opt input:checked");
+                let price = parseFloat($(selectedSize).data("price"));
                 let quantity = parseInt($(".quantity-val").val());
 
                 if (!isNaN(price) && !isNaN(quantity)) {
@@ -91,6 +95,35 @@
                         alert("Error adding to cart.");
                     }
                 });
+            });
+
+            $(".remove-item").click(function (e) {
+                e.preventDefault();
+
+                let cartId = $(this).data("id");
+                let row = $(this).closest("tr");
+
+                if(confirm("Are you sure you want to remove this item?"))
+                {
+                    $.ajax({
+                        url: "<?= base_url('/orders/remove') ?>",
+                        type: "POST",
+                        data: {id:cartId},
+                        success: function (response) {
+                            if (response.status === "success") {
+                                alert("Item removed from cart.");
+                                row.fadeOut(300, function () {
+                                    row.remove()
+                                });
+                            } else {
+                                alert("Failed to remove item.");
+                            }
+                        },
+                        error: function () {
+                            alert("Error removing item.");
+                        }
+                    });
+                }
             });
 
             $(".add-qty").click(function (){

@@ -33,7 +33,7 @@
                                         <div class="product-detail">
                                             <p><?= $o['item_name'] ?></p>
                                             <p><?= $o['size'] ?></p>
-                                            <a href="">remove</a>
+                                            <a href="" class="remove-item" data-id="<?= $o['cId'] ?>">remove</a>
                                         </div>
                                     </div>
                                 </td>

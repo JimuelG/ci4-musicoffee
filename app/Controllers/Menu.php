@@ -9,7 +9,7 @@ class Menu extends BaseController
 {
     public function index()
     {
-    
+        date_default_timezone_set("Asia/Manila");
         $p = new ProductModel();
         $o = new CartModel();
 
@@ -61,7 +61,21 @@ class Menu extends BaseController
         return view('orders', $orderItem);
     }
 
-    
+    public function remove()
+    {
+        $c = new CartModel();
+        $request = service('request');
+
+        $cartId = $request->getPost('id');
+
+        if ($c->delete($cartId))
+        {
+            return $this->response->setJSON(['status' => 'success']);
+        } else {
+            return $this->response->setJSON(['status' => 'error']);
+        }
+
+    }
 }
 
 
