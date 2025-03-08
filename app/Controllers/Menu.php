@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\CartModel;
 use App\Models\ProductModel;
+use App\Models\OrderModel;
 
 class Menu extends BaseController
 {
@@ -61,6 +62,27 @@ class Menu extends BaseController
         return view('orders', $orderItem);
     }
 
+    public function checkout()
+    {
+        $c = new CartModel();
+        $o = new OrderModel();
+
+        $request = service('request');
+        $customerName = 'Jimuel Gaas';
+        $items = $request->getPost('items');
+        $totalPrice = $request->getPost('totalPrice');
+
+        if(!$items || empty($items))
+        {
+            return $this->response->setJSON(['status' => 'error', 'mesage' => 'Cart is empty']);
+        }
+
+        $orderId = $o->saveOrder($customerName, $items, $totalPrice);
+
+        return $this->response->setJSON(['status' => 'success', 'order_id' => $orderId]);
+
+    }
+
     public function remove()
     {
         $c = new CartModel();
@@ -74,7 +96,6 @@ class Menu extends BaseController
         } else {
             return $this->response->setJSON(['status' => 'error']);
         }
-
     }
 }
 
