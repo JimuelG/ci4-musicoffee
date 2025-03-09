@@ -13,33 +13,21 @@ class OrderModel extends Model
         'status',
     ];  
 
-    public function saveOrder($customerName, $items, $totalPrice)
+    public function saveOrder($customerName, $totalPrice)
     {
         $this->db->transStart();
 
         $this->insert([
             'customer_name' => $customerName,
             'total_price' => $totalPrice,
-            'status' => 'pending',
+            'status' => 'pending'
         ]);
 
-        $orderId = $this->insertId();
-
-        $orderModel = new OrderModel();
-
-        foreach ($items as $item)
-        {
-            $orderModel->insert([
-                'order_id' => $orderId,
-                'item_name' => $item['item_name'],
-                'size' => $item['size'],
-                'quantity' => $item['quantity'],
-                'price' => $item['price']
-            ]);
-        }
+        $orderId = $this->insertID();
 
         $this->db->transComplete();
         return $orderId;
+
     }
 }
 

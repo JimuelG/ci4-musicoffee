@@ -3,8 +3,9 @@
 namespace App\Controllers;
 
 use App\Models\CartModel;
-use App\Models\ProductModel;
 use App\Models\OrderModel;
+use App\Models\OrderItemsModel;
+use App\Models\ProductModel;
 
 class Menu extends BaseController
 {
@@ -62,27 +63,6 @@ class Menu extends BaseController
         return view('orders', $orderItem);
     }
 
-    public function checkout()
-    {
-        $c = new CartModel();
-        $o = new OrderModel();
-
-        $request = service('request');
-        $customerName = 'Jimuel Gaas';
-        $items = $request->getPost('items');
-        $totalPrice = $request->getPost('totalPrice');
-
-        if(!$items || empty($items))
-        {
-            return $this->response->setJSON(['status' => 'error', 'mesage' => 'Cart is empty']);
-        }
-
-        $orderId = $o->saveOrder($customerName, $items, $totalPrice);
-
-        return $this->response->setJSON(['status' => 'success', 'order_id' => $orderId]);
-
-    }
-
     public function remove()
     {
         $c = new CartModel();
@@ -96,6 +76,51 @@ class Menu extends BaseController
         } else {
             return $this->response->setJSON(['status' => 'error']);
         }
+    }
+
+    public function checkout()
+    {
+        $cartModel = new CartModel();
+        $orderModel = new OrderModel();
+        $orderItemsModel = new OrderItemsModel();
+
+        $request = service('request');
+        $customerName = 'Jimuel Gaas';
+        $today = date("Y-m-d");
+
+        $cartItems = $cartModel->getOrdersByCustomer($customerName,$today)->findAll();
+
+        if (empty($cartItems))
+        {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'Cart is empty']);
+        }
+
+        $totalPrice = array_reduce($cartItems, function ($sum, $item){
+            return $sum + ($item['price'] * $item['quantity']);
+        }, 0);
+
+        $orderId = $orderModel->saveOrder($customerName, $totalPrice);
+
+        $orderItemsSaved = $orderItemsModel->saveOrderItems($orderId, $cartItems);
+
+        if (!$orderItemsSaved)
+        {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'Failed to save order']);
+        }
+        
+        $cartModel->where('customer_name', $customerName)->delete();
+        
+        return $this->response->setJSON(['status' => 'success', 'order_id' => $orderId]);
+    }
+
+    public function getOrders()
+    {
+        $orderModel = new OrderModel();
+        $customerName = 'Jimuel Gaas';
+
+        $orders = $orderModel->where('customer_name', $customerName)->findAll();
+
+        return view('orders', ['orders' => $orders]);
     }
 }
 

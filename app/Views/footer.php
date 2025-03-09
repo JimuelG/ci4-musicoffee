@@ -174,6 +174,25 @@
                 
                 $(".cart-total").text("P " + totalCartPrice.toFixed(2));
             }
+
+            $("#checkout").click(function (){
+                $.ajax({
+                    url: "<?= base_url('/checkout') ?>",
+                    type: "POST",
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.status === "success") {
+                            alert("Order placed successfully! Order ID: " + response.order_id);
+                            location.reload();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function() {
+                        alert("An error occured. Please try again.");
+                    }
+                });
+            });
         });
     </script>
 </body>

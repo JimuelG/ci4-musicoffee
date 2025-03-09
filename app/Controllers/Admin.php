@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\OrderModel;
 use App\Models\ProductModel;
 
 class Admin extends BaseController
@@ -44,6 +45,18 @@ class Admin extends BaseController
         
         $productModel->insert($data);
         return redirect()->to(base_url('/admin/products'))->with('success', 'Product added successfully!');
+    }
+
+    public function getOrders()
+    {
+        $orderModel = new OrderModel();
+        $customerName = 'Jimuel Gaas';
+
+        $orders = $orderModel->where('customer_name', $customerName)->findAll();
+
+        // return view('orders', ['orders' => $orders]);
+        var_dump($orders);
+
     }
 
 }

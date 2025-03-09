@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="right-bottom">    
-                    <input type="button" value="CHECKOUT">
+                    <input type="button" id="checkout" value="CHECKOUT">
                 </div>
             </div>
         </div>
