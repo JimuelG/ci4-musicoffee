@@ -54,8 +54,7 @@ class Admin extends BaseController
 
         $orders = $orderModel->where('customer_name', $customerName)->findAll();
 
-        // return view('orders', ['orders' => $orders]);
-        var_dump($orders);
+        return view('/admin/orders', ['orders' => $orders]);
 
     }
 

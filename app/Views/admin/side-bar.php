@@ -1,5 +1,5 @@
 <section class="side-bar">
-    <div class="container">
+    <div class="side">
         <div class="top">
             <img src="<?= base_url("") ?>" alt="Logo">
             <p class="logo-text">MUSICOFFEE</p>
