@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Controllers;
+
+use App\Models\OrderItemsModel;
 use App\Models\OrderModel;
 use App\Models\ProductModel;
 
@@ -50,11 +52,12 @@ class Admin extends BaseController
     public function getOrders()
     {
         $orderModel = new OrderModel();
-        $customerName = 'Jimuel Gaas';
+        $orderItem = new OrderItemsModel();
+        // $customerName = 'Jimuel Gaas';
+        $today = date("Y-m-h");
+        $orders['orders'] = $orderModel->findAll();
 
-        $orders = $orderModel->where('customer_name', $customerName)->findAll();
-
-        return view('/admin/orders', ['orders' => $orders]);
+        return view('/admin/orders', $orders);
 
     }
 
