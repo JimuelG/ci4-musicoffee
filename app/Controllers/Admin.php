@@ -61,4 +61,27 @@ class Admin extends BaseController
 
     }
 
+    public function detail($id = null)
+    {
+        $orderItem = new OrderItemsModel();
+        $orderName = new OrderModel();
+        $order_id = $orderName->where("oId", $id)->first();
+
+        if(!$order_id)
+        {
+            return view('admin/order_details', ['items'=>[]]);
+        }
+        
+        $orderItems = $orderItem->where("order_id", $order_id['oId'])->findAll();
+        
+        $orderInfo = [
+            'items' => $orderItems,
+            'total_price' => $order_id['total_price'],
+            'name' => $order_id['customer_name']
+        ];
+        
+        return view('/admin/order_details', $orderInfo);
+        
+    }
+
 }

@@ -20,3 +20,6 @@ $routes->get('/admin/dashboard', 'Admin::index');
 $routes->get('/admin/products', 'Admin::products');
 $routes->post('/admin/add', 'Admin::addProduct');
 $routes->get('/admin/orders', 'Admin::getOrders');
+$routes->get('/admin/order/(:any)', 'Admin::detail/$1');
+
+

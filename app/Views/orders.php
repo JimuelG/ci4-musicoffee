@@ -10,7 +10,7 @@
                     <h1 class="itemCount"></h1>
                 </div>
                 <hr>
-                <div class="table-item">
+                <div class="table-items">
                     <table>
                         <thead>
                             <tr>

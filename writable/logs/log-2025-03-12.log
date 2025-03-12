@@ -1,0 +1,2126 @@
+CRITICAL - 2025-03-12 06:44:15 --> ErrorException: Undefined variable $order
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(68): view('/admin/order_details')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:45:26 --> Error: Cannot use object of type App\Models\OrderItemsModel as array
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 4 APPPATH\Controllers\Admin.php(68): view('/admin/order_details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:45:28 --> Error: Cannot use object of type App\Models\OrderItemsModel as array
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 4 APPPATH\Controllers\Admin.php(68): view('/admin/order_details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:47:52 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:48:27 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:48:28 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:48:42 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:03 --> ErrorException: Undefined variable $cust_name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:04 --> ErrorException: Undefined variable $cust_name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:52 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:53 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:53 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:53 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:53 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:54 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:49:54 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:09 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:10 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:11 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:20 --> ErrorException: Undefined variable $namee
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namee', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:20 --> ErrorException: Undefined variable $namee
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namee', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:21 --> ErrorException: Undefined variable $namee
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namee', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:21 --> ErrorException: Undefined variable $namee
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namee', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:30 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:31 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:42 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:43 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:43 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:50:44 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:01 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:02 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:02 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:05 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:05 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 06:51:06 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:43:50 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:43:55 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:44:40 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:44:46 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:45:03 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:45:47 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:46:43 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/4]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:47:29 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:47:51 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:47:52 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:47:53 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/3]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:47:56 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:48:02 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:48:06 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:48:12 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:48:16 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:25 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:26 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:26 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:33 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:33 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:33 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:34 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:34 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:49:34 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:51:14 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:51:14 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:51:15 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:51:15 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:51:16 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 10.
+ 1 APPPATH\Views\admin\order_details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(70): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:54:25 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 30.
+ 1 APPPATH\Views\admin\order_details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:54:38 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 30.
+ 1 APPPATH\Views\admin\order_details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:54:41 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 30.
+ 1 APPPATH\Views\admin\order_details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:56:08 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/1]
+in APPPATH\Controllers\Admin.php on line 71.
+ 1 APPPATH\Controllers\Admin.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 10:56:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/1]
+in APPPATH\Controllers\Admin.php on line 71.
+ 1 APPPATH\Controllers\Admin.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:00:57 --> ArgumentCountError: Too few arguments to function CodeIgniter\BaseModel::findColumn(), 0 passed in C:\xampp\htdocs\ci4\app\Controllers\Admin.php on line 68 and exactly 1 expected
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\BaseModel.php on line 634.
+ 1 APPPATH\Controllers\Admin.php(68): CodeIgniter\BaseModel->findColumn()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-12 11:05:17 --> mysqli_sql_exception: Unknown column 'orderId' in 'where clause' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci4\app\Controllers\Admin.php(68): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-12 11:05:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'orderId' in 'where clause'
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `orderId` = :orderId:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Admin.php(68): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:05:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'orderId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `orderId` = \'1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `orderId` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `orderId` = :orderId:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Admin.php(68): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:05:17 --> [Caused by] mysqli_sql_exception: Unknown column 'orderId' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `order_items`
+WHERE `orderId` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `orderId` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `orderId` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `orderId` = :orderId:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Admin.php(68): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-12 11:10:19 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci4\app\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-12 11:10:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:10:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:10:19 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:10:52 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 7 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 9 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:11:20 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 7 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 9 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:11:28 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 7 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 9 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:11:29 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:
+ LIMIT 1', [...], false)
+ 7 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 9 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->first()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-12 11:11:52 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4\app\Controllers\Admin.php(70): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-12 11:11:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: admin/order/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:11:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:11:52 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'1\',\'Jimuel Gaas\',\'89.00\',\'pending\',\'2025-03-09 22:30:24\',\'0000-00-00 00:00:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(70): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:13:03 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/1]
+in APPPATH\Controllers\Admin.php on line 70.
+ 1 APPPATH\Controllers\Admin.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:14:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/admin/order_item).php"
+[Method: GET, Route: admin/order/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/order_item).php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_item)', [], true)
+ 3 APPPATH\Controllers\Admin.php(73): view('/admin/order_item)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:14:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/admin/order_item.php"
+[Method: GET, Route: admin/order/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/order_item.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_item', [], true)
+ 3 APPPATH\Controllers\Admin.php(73): view('/admin/order_item', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:14:55 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 30.
+ 1 APPPATH\Views\admin\order_details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(73): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:15:24 --> ErrorException: Undefined array key "item_name"
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 30.
+ 1 APPPATH\Views\admin\order_details.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_name"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(73): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:18:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Controllers\Admin.php on line 70.
+ 1 APPPATH\Controllers\Admin.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:42:40 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/10]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:42:50 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/10]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:43:07 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/10]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:43:09 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/9]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:45:02 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/5]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:45:05 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/5]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:45:33 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/5]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:45:34 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/5]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-12 11:46:58 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4\app\Controllers\Admin.php(75): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\ci4\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ci4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-12 11:46:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: admin/order/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin.php(75): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:46:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'4\',\'Jimuel Gaas\',\'89.00\',\'completed\',\'2025-03-09 22:38:23\',\'2025-03-11 23:03:51\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'4\',\'Jimuel Gaas\',\'89.00\',\'completed\',\'2025-03-09 22:38:23\',\'2025-03-11 23:03:51\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin.php(75): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:46:58 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'4\',\'Jimuel Gaas\',\'89.00\',\'completed\',\'2025-03-09 22:38:23\',\'2025-03-11 23:03:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'4\',\'Jimuel Gaas\',\'89.00\',\'completed\',\'2025-03-09 22:38:23\',\'2025-03-11 23:03:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `order_items`
+WHERE `order_id` = (\'4\',\'Jimuel Gaas\',\'89.00\',\'completed\',\'2025-03-09 22:38:23\',\'2025-03-11 23:03:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `order_items`
+WHERE `order_id` = :order_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin.php(75): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:51:24 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:51:44 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/7]
+in APPPATH\Controllers\Admin.php on line 75.
+ 1 APPPATH\Controllers\Admin.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:51:52 --> ErrorException: Undefined variable $order
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:52:00 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:53:34 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/7]
+in APPPATH\Controllers\Admin.php on line 78.
+ 1 APPPATH\Controllers\Admin.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:53:35 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/7]
+in APPPATH\Controllers\Admin.php on line 78.
+ 1 APPPATH\Controllers\Admin.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\Admin.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:53:53 --> TypeError: view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\ci4\app\Controllers\Admin.php on line 78
+[Method: GET, Route: admin/order/7]
+in SYSTEMPATH\Common.php on line 1161.
+ 1 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], '356.00')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:54:47 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:54:48 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:55:02 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:55:02 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:55:02 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:56:35 --> ErrorException: Undefined variable $order_id
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $order_id', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(78): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:57:26 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:57:41 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:57:42 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:58:02 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:58:03 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:58:03 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 11:58:03 --> ErrorException: Undefined variable $total_price
+[Method: GET, Route: admin/order/7]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_price', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [...], true)
+ 5 APPPATH\Controllers\Admin.php(79): view('/admin/order_details', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:00:58 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/5]
+in APPPATH\Views\admin\order_details.php on line 65.
+ 1 APPPATH\Views\admin\order_details.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:04:53 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 65.
+ 1 APPPATH\Views\admin\order_details.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:05:15 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 65.
+ 1 APPPATH\Views\admin\order_details.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:05:24 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 65.
+ 1 APPPATH\Views\admin\order_details.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:05:29 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/5]
+in APPPATH\Views\admin\order_details.php on line 65.
+ 1 APPPATH\Views\admin\order_details.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:06:04 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:06:32 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:06:58 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:17 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:20 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:23 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:29 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:29 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:32 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:45 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:08:49 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:44:21 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:46:44 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/4]
+in APPPATH\Views\admin\order_details.php on line 67.
+ 1 APPPATH\Views\admin\order_details.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 67)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 12:53:46 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 13:22:56 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/2]
+in APPPATH\Views\admin\order_details.php on line 66.
+ 1 APPPATH\Views\admin\order_details.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(82): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 13:31:07 --> ErrorException: Undefined array key "pictureUrl"
+[Method: GET, Route: admin/order/6]
+in APPPATH\Views\admin\order_details.php on line 33.
+ 1 APPPATH\Views\admin\order_details.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pictureUrl"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(83): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 13:49:47 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 73.
+ 1 APPPATH\Views\admin\order_details.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(83): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 13:50:30 --> ErrorException: Undefined variable $itemCount
+[Method: GET, Route: admin/order/1]
+in APPPATH\Views\admin\order_details.php on line 73.
+ 1 APPPATH\Views\admin\order_details.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemCount', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(83): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

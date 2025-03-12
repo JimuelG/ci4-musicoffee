@@ -26,7 +26,7 @@
                             <th></th>
                         </tr>
                         <?php foreach ($pr as $p): ?>
-                        <tr class="table-item">
+                        <tr class="table-items">
                             <td class="item-img"><img src="<?= base_url("assets/images/products/".$p['pictureUrl']) ?>" alt="item1"></td>
                             <td><?= $p['name'] ?></td>
                             <td><?= $p['description'] ?></td>

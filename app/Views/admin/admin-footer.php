@@ -18,6 +18,12 @@
                     $(this).css('background-color', '#C60303');
                 }
             });
+
+            $(".table-item").click(function () {
+                let productId = $(this).data("id");
+
+                window.location.href = "<?= base_url("/admin/order/") ?>" + productId;
+            });
             
         });
     </script>
