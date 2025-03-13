@@ -24,7 +24,12 @@
                             ?>
                             <tr class='table-item' data-id=<?= $order['oId']?>>
                                 <td><?= "# " . $order['oId'] ?></td>
-                                <td><?= $order['oCreated_at'] ?></td>
+                                <td>
+                                    <?php
+                                        $date = date("F d, Y", strtotime($order['oCreated_at']));
+                                        echo $date;
+                                    ?>
+                                </td>
                                 <td><?= $order['customer_name'] ?></td>
                                 <td><?= $order['total_price'] ?></td>
                                 <td>

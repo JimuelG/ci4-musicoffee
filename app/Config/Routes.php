@@ -18,6 +18,7 @@ $routes->post('/checkout', 'Menu::checkout');
 
 $routes->get('/admin/dashboard', 'Admin::index');
 $routes->get('/admin/products', 'Admin::products');
+$routes->get('/admin/product/edit/(:any)', 'Admin::edit/$1');
 $routes->post('/admin/add', 'Admin::addProduct');
 $routes->get('/admin/orders', 'Admin::getOrders');
 $routes->get('/admin/order/(:any)', 'Admin::detail/$1');

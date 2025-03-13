@@ -84,4 +84,18 @@ class Admin extends BaseController
         
     }
 
+    public function edit($id = null)
+    {
+        $product = new ProductModel();
+
+        $productItem['product'] = $product->where("pId", $id)->first();
+
+        return view('/admin/edit', $productItem);
+    }
+
+    public function save()
+    {
+        
+    }
+
 }

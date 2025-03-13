@@ -3,9 +3,6 @@
     <?= view('admin/side-bar') ?>
 
         <div class="container">
-            <div class="">
-                <p>back</p>
-            </div>
             <div class="order-info">
                     
                 <div class="left">
@@ -67,14 +64,23 @@
                         <div class="right-header">
                             <h1>Order Summary</h1>
                             <hr>
-                        </div>
-                        <div class="right-body">
-                            <div class="body-top">
+                            <div class="pricing">
                                 <p>Item(s) <?= $itemCount ?></p>
                                 <p><?= $total_price ?></p>
                             </div>
+                        </div>
+                        <div class="right-body">
+                            <div class="body-top">
+                                <label for="status">Update status:</label>
+                                <select name="status" class="select-status" id="status">
+                                    <option value="pending">pending</option>
+                                    <option value="completed">completed</option>
+                                    <option value="cancelled">cancelled</option>
+                                </select>
+                            </div>
                             <div class="body-bottom">
-                                <input type="button" value="OK">
+                                <input type="button" class="btn-back" value="back">
+                                <input type="button" class="btn-submit" value="submit">
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,63 @@
+CRITICAL - 2025-03-13 05:19:49 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/10]
+in APPPATH\Views\admin\order_details.php on line 13.
+ 1 APPPATH\Views\admin\order_details.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-13 05:55:04 --> Error: Call to undefined function Mar-13-2025()
+[Method: GET, Route: admin/orders]
+in APPPATH\Views\admin\orders.php on line 32.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/orders', [], true)
+ 4 APPPATH\Controllers\Admin.php(60): view('/admin/orders', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->getOrders()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-13 14:55:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/admin/product/.php"
+[Method: GET, Route: admin/product/edit/9]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/product/.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/product/', [], true)
+ 3 APPPATH\Controllers\Admin.php(93): view('/admin/product/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->edit('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-13 14:55:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/admin/product/edit/.php"
+[Method: GET, Route: admin/product/edit/9]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/product/edit/.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/product/edit/', [], true)
+ 3 APPPATH\Controllers\Admin.php(93): view('/admin/product/edit/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->edit('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-13 14:56:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/admin/edit/.php"
+[Method: GET, Route: admin/product/edit/9]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/edit/.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/edit/', [], true)
+ 3 APPPATH\Controllers\Admin.php(93): view('/admin/edit/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->edit('9')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

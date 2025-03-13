@@ -25,6 +25,9 @@
                 window.location.href = "<?= base_url("/admin/order/") ?>" + productId;
             });
             
+            $(".btn-back").click(function (){
+                window.location.href = "<?= base_url("/admin/orders") ?>"
+            });
         });
     </script>
 </body>

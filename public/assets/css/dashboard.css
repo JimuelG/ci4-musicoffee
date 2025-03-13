@@ -259,6 +259,13 @@ table td {
     font-weight: bold;
 }
 
+.table-item td:nth-child(1){
+    padding-left: 24px;
+}
+
+.table-item td:nth-child(5){
+    padding-right: 24px;
+}
 
 /* Order Details */
 
@@ -284,7 +291,6 @@ table td {
 .left-table table{
     width: 100%;
 }
-
 
 .left-table th{
     text-align: left;
@@ -318,4 +324,86 @@ table td {
 .left-table td:nth-child(4)
 {
     text-align: right;
+}
+
+
+.order-info .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-info .right-header, .order-info .right-body{
+    width: 100%;
+}
+
+.right-header .pricing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body-bottom{
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+
+.right .body-bottom input{
+    color: #E8F2F1;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+}
+
+.btn-submit{
+    background-color: #008080;   
+}
+
+.btn-back{
+    background-color: #C60303;
+}
+
+.body-top{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.body-top label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.select-status{
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+
+/* Edit */
+
+
+.edit .row{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 64px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.edit-product{
+    display: flex;
+    justify-content: center;
+}
+
+.edit img{
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
 }

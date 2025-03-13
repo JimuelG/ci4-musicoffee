@@ -102,7 +102,8 @@
                         <label for="take-out">Take-out</label>
                     </div>
                 </div>
-                <div class="right-bottom">    
+                <div class="right-bottom">
+                    
                     <input type="button" id="checkout" value="CHECKOUT">
                 </div>
             </div>

@@ -31,7 +31,7 @@
                             <td><?= $p['name'] ?></td>
                             <td><?= $p['description'] ?></td>
                             <td><?= "P " . $p['price'] . ".00"?></td>
-                            <td><a href="">edit</a></td>
+                            <td><a href="<?= base_url('/admin/product/edit/') . $p['pId'] ?>">edit</a></td>
                         </tr>
                         <?php endforeach; ?>
                     </table>
