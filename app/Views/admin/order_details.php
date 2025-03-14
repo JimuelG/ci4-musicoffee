@@ -4,11 +4,11 @@
 
         <div class="container">
             <div class="order-info">
-                    
                 <div class="left">
+                    
                     <div class="left-header">
                         <h1><?= $name ?></h1>
-                        <p></p>
+                        <h1 class="">Order # <?= $id['oId'] ?></h1>
                     </div>
                     <div class="left-table">
                         

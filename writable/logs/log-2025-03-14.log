@@ -1,0 +1,84 @@
+CRITICAL - 2025-03-14 15:49:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/product/edit/10]
+in APPPATH\Views\admin\edit.php on line 14.
+ 1 APPPATH\Views\admin\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\edit.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/edit', [], true)
+ 5 APPPATH\Controllers\Admin.php(93): view('/admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-14 15:49:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/product/edit/7]
+in APPPATH\Views\admin\edit.php on line 14.
+ 1 APPPATH\Views\admin\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\edit.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/edit', [], true)
+ 5 APPPATH\Controllers\Admin.php(93): view('/admin/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-14 15:50:53 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/order/12]
+in APPPATH\Views\admin\order_details.php on line 7.
+ 1 APPPATH\Views\admin\order_details.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(83): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-14 15:51:13 --> ErrorException: Undefined array key "oId"
+[Method: GET, Route: admin/order/12]
+in APPPATH\Views\admin\order_details.php on line 7.
+ 1 APPPATH\Views\admin\order_details.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "oId"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(83): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-14 15:52:22 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/order/12]
+in APPPATH\Views\admin\order_details.php on line 7.
+ 1 APPPATH\Views\admin\order_details.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-14 15:52:36 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/order/12]
+in APPPATH\Views\admin\order_details.php on line 7.
+ 1 APPPATH\Views\admin\order_details.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

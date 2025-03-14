@@ -75,6 +75,7 @@ class Admin extends BaseController
         $orderItems = $orderItem->where("order_id", $order_id['oId'])->findAll();
         
         $orderInfo = [
+            'id' => $order_id,
             'items' => $orderItems,
             'total_price' => $order_id['total_price'],
             'name' => $order_id['customer_name']

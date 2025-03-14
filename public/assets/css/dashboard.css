@@ -388,13 +388,27 @@ table td {
 
 /* Edit */
 
+.edit{
+    width: 100%;
+}
+.edit-container{
+    padding: 40px;
+}
 
-.edit .row{
+/* .row{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
+} */
+
+.row-inner{
+    width: 60%;
     padding: 64px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.prod-details{
+    margin-bottom: 24px;
 }
 
 .edit-product{
@@ -406,4 +420,58 @@ table td {
     width: 240px;
     height: 240px;
     object-fit: contain;
+    border: 1px solid #023D4E;
+}
+
+.edit-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.edit-right .name{
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.edit-right .price{
+    width: 21.45%;
+}
+
+.edit-right .description{
+    width: 100%;
+    margin: 10px 0px;
+    resize: none;
+}
+
+.edit-right #category, .edit-right #status{
+    width: 30%;
+}
+
+.file{
+    margin: 10px 0 24px 0;
+}
+
+.btn{
+    align-self: self-end;
+}
+
+.edit-btn-back,.edit-btn-save{
+    color: #E8F2F1;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+}
+
+.edit-btn-save{
+    background-color: #024E2B;
+}
+
+.edit-btn-back{
+    background-color: #C60303;
+}
+
+#status{
+    padding: 8px;
 }

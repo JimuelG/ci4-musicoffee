@@ -28,6 +28,10 @@
             $(".btn-back").click(function (){
                 window.location.href = "<?= base_url("/admin/orders") ?>"
             });
+
+            $(".edit-btn-back").click(function (){
+                window.location.href = "<?= base_url("/admin/products") ?>"
+            });
         });
     </script>
 </body>
