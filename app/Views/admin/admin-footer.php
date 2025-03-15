@@ -32,6 +32,31 @@
             $(".edit-btn-back").click(function (){
                 window.location.href = "<?= base_url("/admin/products") ?>"
             });
+
+            $(".btn-submit").click(function (){
+                let orderId = $(".orderId").data('id');
+                let newStatus = $("#status").val();
+                console.log(orderId);
+                console.log(newStatus);
+                $.ajax({
+                    url: "<?= base_url('/admin/update-status') ?>",
+                    type: "POST",
+                    data: { orderId: orderId, status: newStatus},
+                    dataType: "json",
+                    success: function (response) {
+                        if (response.status === "success"){
+                            alert("Order status updated successfully!");
+                            window.location.href = "<?= base_url('/admin/orders') ?>";
+                        } else {
+                            alert("Failed to udpate status: " + response.message);
+                        }
+                    },
+                    error: function () {
+                        alert("An error occured. Please try again.");
+                    }
+
+                });
+            });
         });
     </script>
 </body>

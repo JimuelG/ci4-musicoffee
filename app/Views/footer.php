@@ -30,7 +30,6 @@
                 $("#16oz").prop("checked", true);
                 updateTotal();
                 
-
             });
 
             $(".exit").click(function(){
@@ -176,6 +175,47 @@
             }
 
             $("#checkout").click(function (){
+                let updatedCart = [];
+                let hasChanges = false;
+
+                $(".product-item").each(function (){
+                    let inputQty = $(this).find(".quantity-input").val();
+                    let currentQty = $(this).find(".quantity-input").data("original");
+
+                    if (inputQty != currentQty){
+                        hasChanges = true;
+                        updatedCart.push({
+                            cId: $(this).find(".remove-item").data("id"),
+                            quantity: inputQty
+                        });
+                    }
+                });
+
+                console.log(hasChanges);
+
+                if (hasChanges){
+                    $.ajax({
+                    url: "<?= base_url('/update-cart') ?>",
+                    type: "POST",
+                    data: { cart: updatedCart },
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.status === "success") {
+                            proceedToCheckout();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function() {
+                        alert("An error occured. Please try again.");
+                    }
+                    });
+                } else {
+                    proceedToCheckout();
+                }
+            });
+
+            function proceedToCheckout() {
                 $.ajax({
                     url: "<?= base_url('/checkout') ?>",
                     type: "POST",
@@ -192,8 +232,7 @@
                         alert("An error occured. Please try again.");
                     }
                 });
-            });
-
+            }
             
         });
     </script>

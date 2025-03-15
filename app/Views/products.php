@@ -4,7 +4,7 @@
 
     <section class="products">
         <div class="container">
-            <div class="dashboard">  
+            <div class="dashboard">
                 <h1>Products</h1>
                 <div class="toolbar">
                     <div class="dropdown">
@@ -29,7 +29,11 @@
                         <tr class="table-items">
                             <td class="item-img"><img src="<?= base_url("assets/images/products/".$p['pictureUrl']) ?>" alt="item1"></td>
                             <td><?= $p['name'] ?></td>
-                            <td><?= $p['description'] ?></td>
+                            <td>
+                                <div class="item-des">
+                                    <?= $p['description'] ?>
+                                </div>
+                            </td>
                             <td><?= "P " . $p['price'] . ".00"?></td>
                             <td><a href="<?= base_url('/admin/product/edit/') . $p['pId'] ?>">edit</a></td>
                         </tr>
@@ -53,6 +57,9 @@
                             <select name="item-category" id="item-category">
                                 <option value="Coffee">Coffee</option>
                                 <option value="Coffee-hot">Coffee(hot)</option>
+                                <option value="Non-Coffee">Non-coffee</option>
+                                <option value="Fruit-soda">Fruit Soda</option>
+                                <option value="Milktea">Milktea</option>
                             </select>
                         </p>
                         <input type="text" name="price" class="price" placeholder="Price">

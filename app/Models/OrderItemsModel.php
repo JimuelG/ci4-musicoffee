@@ -12,7 +12,8 @@ class OrderItemsModel extends Model
         'item_name',
         'size',
         'quantity',
-        'price'
+        'price',
+        'pictureUrl'
     ];  
 
     public function saveOrderItems($orderId, $items)
@@ -26,7 +27,8 @@ class OrderItemsModel extends Model
                 'item_name' => $item['item_name'],
                 'size' => $item['size'],
                 'quantity' => $item['quantity'],
-                'price' => $item['price']
+                'price' => $item['price'],
+                'pictureUrl' => $item['pictureUrl']
             ]);
         }
 

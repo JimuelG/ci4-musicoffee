@@ -99,4 +99,26 @@ class Admin extends BaseController
         
     }
 
+    public function updateStatus()
+    {
+        $orderModel = new OrderModel();
+        $orderId = $this->request->getPost('orderId');
+        $newStatus = $this->request->getPost('status');
+
+        if(!$orderId || !$newStatus ) {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'Invalid request']);
+        }
+
+        $update = $orderModel->update($orderId, ['status' => $newStatus]);
+
+        if ($update) {
+            if ($this->request->isAJAX()) {
+                return $this->response->setJSON(['status' => 'success']);
+            }
+            return redirect()->to('/admin/orders')->with('message', 'Order status updated successfully');
+        } else {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'Failed to update status']);
+        }
+    }
+
 }

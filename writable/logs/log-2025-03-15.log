@@ -1,0 +1,56 @@
+CRITICAL - 2025-03-15 06:25:03 --> ErrorException: Undefined array key "picuteUrl"
+[Method: GET, Route: admin/order/18]
+in APPPATH\Views\admin\order_details.php on line 39.
+ 1 APPPATH\Views\admin\order_details.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picuteUrl"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('18')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-15 06:25:28 --> ErrorException: Undefined array key "picuteUrl"
+[Method: GET, Route: admin/order/18]
+in APPPATH\Views\admin\order_details.php on line 39.
+ 1 APPPATH\Views\admin\order_details.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picuteUrl"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('18')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-15 06:27:42 --> ErrorException: Undefined array key "picuteUrl"
+[Method: GET, Route: admin/order/18]
+in APPPATH\Views\admin\order_details.php on line 39.
+ 1 APPPATH\Views\admin\order_details.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picuteUrl"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('18')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-15 06:27:43 --> ErrorException: Undefined array key "picuteUrl"
+[Method: GET, Route: admin/order/18]
+in APPPATH\Views\admin\order_details.php on line 39.
+ 1 APPPATH\Views\admin\order_details.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picuteUrl"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(84): view('/admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('18')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -80,18 +80,19 @@ class Menu extends BaseController
 
     public function checkout()
     {
+        date_default_timezone_set("Asia/Manila");
+
         $cartModel = new CartModel();
         $orderModel = new OrderModel();
         $orderItemsModel = new OrderItemsModel();
 
-        $request = service('request');
         $customerName = 'Jimuel Gaas';
         $today = date("Y-m-d");
 
         $cartItems = $cartModel->getOrdersByCustomer($customerName,$today)->findAll();
 
         if (empty($cartItems))
-        {
+        {   
             return $this->response->setJSON(['status' => 'error', 'message' => 'Cart is empty']);
         }
 
@@ -100,6 +101,10 @@ class Menu extends BaseController
         }, 0);
 
         $orderId = $orderModel->saveOrder($customerName, $totalPrice);
+
+        if (!$orderId) {
+            return $this->response->setJSON(['status'=> 'error', 'message' => 'Failed to create order']);
+        }
 
         $orderItemsSaved = $orderItemsModel->saveOrderItems($orderId, $cartItems);
 
@@ -113,6 +118,23 @@ class Menu extends BaseController
         return $this->response->setJSON(['status' => 'success', 'order_id' => $orderId]);
     }
 
+    public function updateCart()
+    {
+        $cartModel = new CartModel();
+        $cartData = $this->request->getPost('cart');
+
+        if(!$cartData) {
+            return $this->response->setJSON(['status' => 'error', 'message' => 'No cart data provided']);
+        }
+
+        foreach ($cartData as $item)
+        {
+            $cartModel->update($item['cId'], ['quantity' => $item['quantity']]);
+        }
+
+        return $this->response->setJSON(['status' => 'success', 'message' => 'Cart updated successfully']);
+    }
+
     public function getOrders()
     {
         $orderModel = new OrderModel();
@@ -122,6 +144,7 @@ class Menu extends BaseController
 
         return view('orders', ['orders' => $orders]);
     }
+
 }
 
 

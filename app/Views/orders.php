@@ -48,6 +48,7 @@
                                             type="text" 
                                             class="quantity-input" 
                                             data-id="<?= $o['cId'] ?>"
+                                            data-original="<?= $o['quantity'] ?>"
                                             value="<?= $o['quantity'] ?>"
                                             disabled>
                                         <img 
@@ -103,7 +104,6 @@
                     </div>
                 </div>
                 <div class="right-bottom">
-                    
                     <input type="button" id="checkout" value="CHECKOUT">
                 </div>
             </div>
