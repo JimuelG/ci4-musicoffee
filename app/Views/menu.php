@@ -5,7 +5,7 @@
     <section class="menu">
         <div class="container">
             <div class="crumbs">
-                <p class="menu-crumbs">Menu</p>
+                <h2 class="menu-crumbs">Menu</h2>
                 <div class="cart">
                     <a href="<?= base_url("/orders") ?>">
                         <img src="<?= base_url("assets/images/cart.png") ?>" alt="cart">
