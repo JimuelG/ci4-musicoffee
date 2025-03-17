@@ -59,8 +59,8 @@
                                         <tr>
                                             <td colspan="4">No items found</td>
                                         </tr>
+                                        <?php endif; ?>
                                     </tbody>
-                                    <?php endif; ?>
                                 </table>
                             </div>
                         </div>

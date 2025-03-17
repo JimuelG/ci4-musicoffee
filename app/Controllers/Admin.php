@@ -53,9 +53,10 @@ class Admin extends BaseController
     {
         $orderModel = new OrderModel();
         $orderItem = new OrderItemsModel();
-        // $customerName = 'Jimuel Gaas';
-        $today = date("Y-m-h");
-        $orders['orders'] = $orderModel->findAll();
+
+        $today = date("Y-m-d");
+
+        $orders['orders'] = $orderModel->orderBy('oCreated_at', 'DESC')->findAll();
 
         return view('/admin/orders', $orders);
 

@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-.table-item{
+.table-items{
     width: 100%;
     border-collapse: collapse;
     max-height: 60vh;
@@ -44,7 +44,6 @@
     width: 100%;
     
 }
-
 
 .table-items th{
     text-align: left;
@@ -84,7 +83,8 @@
 
 .product-img {
     width: 100px;
-    height: 100px;
+    height: 100px;  
+    object-fit: cover;
 }
 
 .product-quantity{

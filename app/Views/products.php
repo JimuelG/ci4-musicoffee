@@ -42,7 +42,8 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section class="modal">
         <form action="<?= base_url("/admin/add") ?>" method="POST" enctype="multipart/form-data">
             <div class="item-modal hidden">
                 <img class="exit" src="<?= base_url("assets/images/exit.png") ?>" alt="exit">
@@ -75,7 +76,6 @@
                 </div>
             </div>
         </form>
-        
     </section>
     
     

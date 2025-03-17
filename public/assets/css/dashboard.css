@@ -155,8 +155,13 @@ table td {
 }
 
 /* Modal */
+.modal{
+    width: 100%;
+    height: 100%;   
+}
+
 .item-modal {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -164,6 +169,7 @@ table td {
     width: 30%;
     padding: 24px;
     background-color: #008080;
+
 }
 
 .item-modal.hidden{
@@ -285,11 +291,15 @@ table td {
     display: flex;
     flex-direction: column;
     padding: 64px;
+    height: 100vh;
+   
 }
 
 .order-details{
     display: flex;
+    max-height: 80vh;
 }
+
 
 .order-info .left{
     padding: 32px;
@@ -314,8 +324,20 @@ table td {
     font-size: 28px;
 }
 
+.left-table{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
 .left-table table{
     width: 100%;
+    height: 100%;
+    padding-right: 24px;
+}
+
+.order-info .left-table tbody{
+    height: 70%;
 }
 
 .left-table th{
@@ -352,6 +374,22 @@ table td {
     text-align: right;
 }
 
+.item-details{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.item-details .img{
+    width: 100px;
+    height: 150px;
+}
+
+.item-details img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
 .order-info .right{
     display: flex;
@@ -445,7 +483,7 @@ table td {
 .edit img{
     width: 240px;
     height: 240px;
-    object-fit: contain;
+    object-fit: cover;
     border: 1px solid #023D4E;
 }
 
