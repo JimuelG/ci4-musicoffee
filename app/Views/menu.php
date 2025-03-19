@@ -74,11 +74,14 @@
                 </div>
         </div>
     </section>
-    <section class="customer-modal">
+    <section class="customer-modal hidden">
         <div class="container">
             <div class="c-modal">
-                <img src="<?= base_url("assets/images/exit.png") ?>" alt="" class="exit">
-                
+                <div class="customer-input">
+                    <h1>Who's ready for a coffee break? Let's start with your name!</h1>
+                    <input type="text" class="customerName" placeholder="Please enter your name">
+                    <input type="button" class="customer-submit" value="Enter">
+                </div>
             </div>
         </div>
     </section>

@@ -10,7 +10,7 @@ $routes->get('/home', 'Home::home');
 $routes->get('/products', 'Home::product');
 $routes->get('/menu', 'Menu::index');
 $routes->post('/addCart', 'Menu::addCart');
-// $routes->get('/cart', 'Menu::cart');
+$routes->post('/set-customer', 'Menu::setCustomer');
 $routes->get('/orders', 'Menu::orders');
 $routes->post('/orders/remove', 'Menu::remove');
 $routes->post('/checkout', 'Menu::checkout');

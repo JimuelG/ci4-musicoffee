@@ -52,11 +52,10 @@ class Admin extends BaseController
     public function getOrders()
     {
         $orderModel = new OrderModel();
-        $orderItem = new OrderItemsModel();
 
         $today = date("Y-m-d");
 
-        $orders['orders'] = $orderModel->orderBy('oCreated_at', 'DESC')->findAll();
+        $orders['orders'] = $orderModel->like('oCreated_at', $today)->orderBy('oCreated_at', 'DESC')->findAll();
 
         return view('/admin/orders', $orders);
 

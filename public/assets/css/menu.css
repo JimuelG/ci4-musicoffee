@@ -27,7 +27,7 @@ body{
     top: -16px;
     right: -16px;
     padding: 8px 12px;
-    border-radius: 24px;
+    border-radius: 32px;
     border: 2px solid #E8F2F1;
     background-color: #023D4E;
     color: #E8F2F1;
@@ -218,4 +218,49 @@ hr{
     font-weight: bold;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* Customer Name Modal */
+
+.customer-modal.hidden {
+    display: none;
+}
+
+.customer-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 64px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #E8F2F1;
+}
+
+.customer-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-input h1{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.customer-input .customerName{
+    padding: 16px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.customer-input .customer-submit{
+    padding: 16px 32px;
+    border: none;
+    background-color: #023D4E;
+    color: #E8F2F1;
+    font-size: 16px;
 }

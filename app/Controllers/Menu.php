@@ -9,13 +9,32 @@ use App\Models\ProductModel;
 
 class Menu extends BaseController
 {
+    public function setCustomer()
+    {
+        $session  = session();
+        $customerName = $this->request->getPost('customer_name');
+
+        if(!empty($customerName)) {
+            $session->set('customer_name', $customerName);
+            return $this->response->setJSON(['status' => 'success']);
+        }
+
+        return $this->response->setJSON(['status' => 'error', 'message' => 'Customer name required!']);
+    }
+
+    public function getCustomerName()
+    {
+        $session = session();
+        return $session->get('customer_name') ?? null;
+    }
+
     public function index()
     {
         date_default_timezone_set("Asia/Manila");
         $p = new ProductModel();
         $o = new CartModel();
 
-        $customerName = "Jimuel Gaas";
+        $customerName = $this->getCustomerName();
         $today = date("Y-m-d");
 
         $cartCount = $o->getOrdersByCustomer($customerName,$today)->countAllResults();
@@ -31,7 +50,7 @@ class Menu extends BaseController
         $c = new CartModel();
         $request = service('request');
         
-        $customerName = "Jimuel Gaas";
+        $customerName = $this->request->getPost('customerName');
         $itemName = $request->getPost('productName');
         $size = $request->getPost('productSize');
         $quantity = $request->getPost('quantity');

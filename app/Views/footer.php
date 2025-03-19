@@ -7,28 +7,65 @@
                 window.location.href = "<?= base_url("/menu") ?>";
             });
 
-            $(".add-to-cart").click(function(){
-                let productId = $(this).data("id");
-                let productName = $(this).data("name");
-                let productPrice = $(this).data("price");
-                let productImg = $(this).data("img");
+            if (!localStorage.getItem("customer_name")) {
+                $(".customer-modal").fadeIn();
+                $(".customer-modal").removeClass("hidden");
+            }
 
+            $(".customer-submit").click(function (){
+                let customerName = $(".customerName").val().trim();
 
-                $(".modal-img").attr("src", productImg);
-                $(".modal-name").text(productName);
-                $(".total-price").text("Total P " + productPrice);
-                $(".cart-modal").removeClass("hidden");
-                $(".quantity-val").val(1);
+                if (customerName === ""){
+                    alert("Please enter your name to continue.");
+                    return;
+                }
                 
-                $(".size-16oz").text("16oz - P " + productPrice + ".00");
-                $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
+                localStorage.setItem("customer_name", customerName);
 
-                $("#16oz").data("price", productPrice);
-                $("#22oz").data("price", productPrice + 20);
+                $.ajax({
 
-                $(".modal-name").attr("data-price", productPrice);
-                $("#16oz").prop("checked", true);
-                updateTotal();
+                    url: "<?= base_url('/set-customer') ?>",
+                    type: "POST",
+                    data: { customer_name: customerName },
+                    success: function (response) {
+                        $(".customer-modal").fadeOut();
+                        $(".customer-modal").addClass("hidden");
+                    },
+
+                    error: function () {
+                        alert("An error occured. Please try again.");
+                    }
+                });
+            });
+
+            $(".add-to-cart").click(function(e){
+                let customerName = localStorage.getItem("customer_name");
+
+                if (customerName) {
+                    let productId = $(this).data("id");
+                    let productName = $(this).data("name");
+                    let productPrice = $(this).data("price");
+                    let productImg = $(this).data("img");
+
+                    $(".modal-img").attr("src", productImg);
+                    $(".modal-name").text(productName);
+                    $(".total-price").text("Total P " + productPrice);
+                    $(".cart-modal").removeClass("hidden");
+                    $(".quantity-val").val(1);
+                    
+                    $(".size-16oz").text("16oz - P " + productPrice + ".00");
+                    $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
+
+                    $("#16oz").data("price", productPrice);
+                    $("#22oz").data("price", productPrice + 20);
+
+                    $(".modal-name").attr("data-price", productPrice);
+                    $("#16oz").prop("checked", true);
+                    updateTotal();
+                } else {
+                    alert("Please enter your name first to place an order.");
+                    e.preventDefault();            
+                };
                 
             });
 
@@ -71,12 +108,15 @@
                 let quantity = $(".quantity-val").val();
                 let productImg = $(".modal-img").attr("src");
                 let totalPrice = $(".total-price").text().replace("Total P ", "").trim();
+                let customerName = localStorage.getItem("customer_name");
 
                 console.log(productPrice);
                 $.ajax({
                     url: "<?= base_url('/addCart') ?>",
                     type: "POST",
                     data: {
+
+                        customerName: customerName,
                         productName: productName,
                         productSize: productSize,
                         quantity: quantity,
