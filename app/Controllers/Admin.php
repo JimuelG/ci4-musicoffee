@@ -5,9 +5,38 @@ namespace App\Controllers;
 use App\Models\OrderItemsModel;
 use App\Models\OrderModel;
 use App\Models\ProductModel;
+use App\Models\UserModel;
 
 class Admin extends BaseController
 {
+    public function login()
+    {
+        return view('admin/login');
+    }
+
+    public function loginPost()
+    {
+        $session = session();
+        $userModel = new UserModel();
+        $name = $this->request->getPost('user_name');
+        $password = $this->request->getPost('password');
+
+        $user = $userModel->where('name', $name)->first();
+
+        if ($user && password_verify($password, $user['password']))
+        {
+            $session->set([
+                'user_id' => $user['user_id'],
+                'user_name' => $user['name'],
+                'user_lvl' => $user['user_lvl'],
+                'logged_in' => true
+            ]);
+            return redirect()->to('/admin/dashboard');
+        } else {
+            return redirect()->to('/admin/login')->with('error', 'Invalid credentials');
+        }
+    }
+
     public function index(): string
     {
         return view('dashboard');
@@ -55,7 +84,7 @@ class Admin extends BaseController
 
         $today = date("Y-m-d");
 
-        $orders['orders'] = $orderModel->like('oCreated_at', $today)->orderBy('oCreated_at', 'DESC')->findAll();
+        $orders['orders'] = $orderModel->orderBy('oCreated_at', 'DESC')->findAll();
 
         return view('/admin/orders', $orders);
 

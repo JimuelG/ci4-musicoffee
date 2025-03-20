@@ -16,6 +16,8 @@ $routes->post('/orders/remove', 'Menu::remove');
 $routes->post('/checkout', 'Menu::checkout');
 $routes->post('/update-cart', 'Menu::updateCart');
 
+$routes->get('/admin/login', 'Admin::login');
+$routes->post('/admin/login', 'Admin::loginPost');
 $routes->get('/admin/dashboard', 'Admin::index');
 $routes->get('/admin/products', 'Admin::products');
 $routes->get('/admin/product/edit/(:any)', 'Admin::edit/$1');
