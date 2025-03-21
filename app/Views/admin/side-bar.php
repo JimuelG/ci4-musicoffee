@@ -10,6 +10,7 @@
                 <a href="<?= base_url('/admin/products')?>" class="">Products</a>
                 <a href="<?= base_url('/admin/orders')?>" class="">Orders</a>
             </div>
+            <a href="<?= base_url("/logout") ?>">Logout</a>
         </div>
     </div>
 </section>

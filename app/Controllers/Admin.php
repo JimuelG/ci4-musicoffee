@@ -18,9 +18,8 @@ class Admin extends BaseController
     {
         $session = session();
         $userModel = new UserModel();
-        $name = $this->request->getPost('user_name');
+        $name = $this->request->getPost('name');
         $password = $this->request->getPost('password');
-
         $user = $userModel->where('name', $name)->first();
 
         if ($user && password_verify($password, $user['password']))
@@ -29,12 +28,18 @@ class Admin extends BaseController
                 'user_id' => $user['user_id'],
                 'user_name' => $user['name'],
                 'user_lvl' => $user['user_lvl'],
-                'logged_in' => true
+                'logged_in' => 1
             ]);
             return redirect()->to('/admin/dashboard');
         } else {
             return redirect()->to('/login')->with('error', 'Invalid credentials');
         }
+    }
+
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to('/login');
     }
 
     public function index(): string

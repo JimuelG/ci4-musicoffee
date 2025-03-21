@@ -547,3 +547,38 @@ table td {
 #status{
     padding: 8px;
 }
+
+
+/* Admin Login */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 64px;
+    background-color: #008080;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form input{
+    padding: 24px;
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 24px;
+}

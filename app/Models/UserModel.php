@@ -10,7 +10,7 @@ class UserModel extends Model
     protected $allowedFields = [
         'name',
         'password',
-        'user_lvl'
+        'user_lvl',
     ];
 
 }
