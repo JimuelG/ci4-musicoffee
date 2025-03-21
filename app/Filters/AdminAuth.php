@@ -28,7 +28,7 @@ class AdminAuth implements FilterInterface
         $session = session();
         if (!$session->has('user_id') || $session->get('user_lvl') !== 'admin')
         {
-            return redirect()->to('/admin/login')->with('error', 'Access Denied. Admins only.');
+            return redirect()->to('/login')->with('error', 'Access Denied. Admins only.');
         }
     }
 

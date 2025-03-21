@@ -11,7 +11,7 @@ class Admin extends BaseController
 {
     public function login()
     {
-        return view('admin/login');
+        return view('/admin/login');
     }
 
     public function loginPost()
@@ -33,7 +33,7 @@ class Admin extends BaseController
             ]);
             return redirect()->to('/admin/dashboard');
         } else {
-            return redirect()->to('/admin/login')->with('error', 'Invalid credentials');
+            return redirect()->to('/login')->with('error', 'Invalid credentials');
         }
     }
 
