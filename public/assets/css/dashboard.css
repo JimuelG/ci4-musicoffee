@@ -562,9 +562,9 @@ table td {
 .login-container{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 400px;
     padding: 64px;
-    background-color: #008080;
+    background-color: #023D4E;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -576,9 +576,76 @@ table td {
     width: 100%;
 }
 
-.login-form input{
-    padding: 24px;
+.login-form h1{
+    color: #E8F2F1;
+    text-transform: uppercase;
+}
+
+.login-form hr{
     width: 50%;
-    font-size: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+}
+
+.text_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #E8F2F1;
+}
+
+.text_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.text_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: #E8F2F1;
+    transition: .5s;
+}
+
+.text_field input:focus ~ label, .text_field input:valid ~ label{
+    top: -5px;
+    color: #E8F2F1;
+}
+
+.text_field input:focus ~ span::before, .text_field input:valid ~ span::before{
+    width: 100%;
+}
+
+.login-form #submit{
+    padding: 16px 60px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    background-color: #E8F2F1;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-form #submit:hover{
+    background-color: #008080;
+    color: #E8F2F1;
 }

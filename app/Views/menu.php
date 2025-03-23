@@ -25,7 +25,7 @@
                                     data-name="<?= $p['name'] ?>"
                                     data-price="<?= $p['price'] ?>"
                                     data-img="<?= base_url("assets/images/products/"). $p['pictureUrl'] ?>">
-                                    <img src="<?= base_url("assets/images/add.png") ?>" alt="Add to cart">
+                                    <img src="<?= base_url("assets/images/add_black.png") ?>" alt="Add to cart">
                                 </button>
                             <p class="menu-name"><?= $p['name'] ?></p>
                             <p class="menu-price"><?= "P " . $p['price'] . ".00" ?></p>
@@ -38,12 +38,13 @@
     <section class="cart-modal hidden">
         <div class="container">
                 <div class="modal">
-                        <img class="exit" src="<?= base_url("assets/images/exit.png") ?>" alt="exit">
+                    <img class="exit" src="<?= base_url("assets/images/exit.png") ?>" alt="exit">
                     <div class="left-modal">
                         <img class="modal-img" src="" alt="product">
-                        <p class="modal-name"></p>
+                        
                     </div>
                     <div class="right-modal">
+                        <p class="modal-name"></p>
                         <div class="size">
                             <p>Size</p>
                             <div class="size-opt">
@@ -79,7 +80,11 @@
             <div class="c-modal">
                 <div class="customer-input">
                     <h1>Who's ready for a coffee break? Let's start with your name!</h1>
-                    <input type="text" class="customerName" placeholder="Please enter your name">
+                    <div class="text_field">
+                        <input type="text" class="customerName">
+                        <span></span>
+                        <label>Name</label>
+                    </div>
                     <input type="button" class="customer-submit" value="Enter">
                 </div>
             </div>
