@@ -44,7 +44,7 @@
                         
                     </div>
                     <div class="right-modal">
-                        <p class="modal-name"></p>
+                        <p class="modal-name"></p>          
                         <div class="size">
                             <p>Size</p>
                             <div class="size-opt">
