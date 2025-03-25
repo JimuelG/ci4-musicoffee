@@ -25,5 +25,9 @@ class Home extends BaseController
         echo "</pre>";
     }
 
+    public function contact()
+    {
+        return view('contact');
+    }
     
 }

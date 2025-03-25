@@ -81,7 +81,7 @@
                 <div class="customer-input">
                     <h1>Who's ready for a coffee break? Let's start with your name!</h1>
                     <div class="text_field">
-                        <input type="text" class="customerName">
+                        <input type="text" class="customerName" required>
                         <span></span>
                         <label>Name</label>
                     </div>

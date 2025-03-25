@@ -3,6 +3,7 @@ body{
 }
 
 .menu {
+    
     padding: 64px 0px;
 }
 
@@ -10,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 128px;
 }
 
 .crumbs img{
@@ -299,16 +301,16 @@ hr{
     left: 0px;
     width: 0px;
     height: 2px;
-    background-color: #008080;
+    background-color: aquamarine;
     transition: .5s;
 }
 
-.text_field input:focus ~ label, .text_field input:valid ~ label{
+.text_field .customerName:focus ~ label, .text_field .customerName:valid ~ label{
     top: -5px;
-    color: #008080;
+    color: aquamarine;
 }
 
-.text_field input:focus ~ span::before, .text_field input:valid ~ span::before{
+.text_field .customerName:focus ~ span::before, .text_field .customerName:valid ~ span::before{
     width: 100%;
 }
 
