@@ -6,7 +6,7 @@
             <div class="nav-bar">
                     <div class="left-nav">
                         <a id="home" href="<?= base_url('/') ?>">Home</a>
-                        <a>About us</a>
+                        <a  href="<?= base_url('/about') ?>">About us</a>
                     </div>
                     <div class="center-nav">
                         <img class="logo" src="<?= base_url("assets/images/logo.png") ?>" alt="logo">
@@ -90,7 +90,7 @@
                         <p>Nothing beats coffee while listening to music. <strong>Your Daily Dose of Harmony</strong></p>
                     </div>
                 </div>
-                <input type="button" value="LEARN MORE">
+                <a href="<?= base_url('/about') ?>"><input type="button" value="LEARN MORE"></a>
             </div>
         </div>
     </section>

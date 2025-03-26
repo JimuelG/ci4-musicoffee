@@ -16,9 +16,9 @@
                             <h1>Quick Links</h1>
                             <ul>
                                 <li><a href="">Back to top</a></li>
-                                <li><a href="">About Us</a></li>
+                                <li><a href="<?= base_url('/about') ?>">About Us</a></li>
                                 <li><a href="<?= base_url("/menu") ?>">Menu</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="<?= base_url('/contact') ?>">Contact</a></li>
                             </ul>
                         </div>
                         <div class="item">

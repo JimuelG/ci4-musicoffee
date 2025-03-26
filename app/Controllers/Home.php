@@ -29,5 +29,10 @@ class Home extends BaseController
     {
         return view('contact');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
     
 }
