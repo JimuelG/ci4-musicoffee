@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <?php for($i = 1; $i <= 6; $i++): ?>
-                <div class="column">
+                <div class="mySlides fade">
                     <img src="<?= base_url('assets/images/slideshow/'.$i . '.jpg')?>" alt="">
                 </div>
                 <?php endfor; ?>

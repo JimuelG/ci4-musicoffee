@@ -553,15 +553,38 @@ body {
     font-size: 20px;
 }
 
+.about-images{
+    width: 100%;
+    margin: auto;
+}
+
 .about-images .row{
     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
 }
 
 .about-images img{
-    width: 100%;
-    height: 50vh;
+    width: 50%;
+    height: auto;
     object-fit: cover;
     overflow: scroll;
+}
+
+.about-images .mySlides{
+    display: none;
+    width: 100%;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 
