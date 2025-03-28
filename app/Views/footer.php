@@ -60,6 +60,15 @@
     <script src="<?= base_url("/assets/js/jquery.min.js") ?>"></script>
     <script src="<?= base_url("/assets/js/slideshow.js") ?>"></script>
     <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            setTimeout(function(){
+                document.querySelector(".preloader-section").style.opacity = "0";
+                setTimeout(() => {
+                    document.querySelector(".preloader-section").style.display="none";
+                }, 500);
+            }, 3000);
+        });
+
         $(document).ready(function(){
             updateOrderTotal();
 

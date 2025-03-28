@@ -29,6 +29,10 @@
     <div class="about-images">
         <div class="container">
             <div class="row">
+                <div class="column">
+                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas dignissimos error ad eveniet exercitationem culpa ex laboriosam ea suscipit? Reprehenderit, nobis sapiente enim nesciunt quo facilis qui quasi, aspernatur vero ut, exercitationem voluptas rerum ea animi fuga ullam architecto!</p>
+                </div>
                 <?php for($i = 1; $i <= 6; $i++): ?>
                 <div class="mySlides fade">
                     <img src="<?= base_url('assets/images/slideshow/'.$i . '.jpg')?>" alt="">

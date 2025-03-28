@@ -1,4 +1,5 @@
 <?= view('header/header') ?>
+<?= view('/loader') ?>
 
 <body>
     <section class="nav">
@@ -103,15 +104,23 @@
                 <div class="feature-item">
                     <div class="item">
                         <img src="<?= base_url('assets/images/products/Spanish Latte.jpg') ?>" alt="">
+                        <div class="overlay">
+                            <a href="<?= base_url('/menu') ?>">View on menu</a>
+                        </div>
                         <p>Spanish Latte</p>
-
                     </div>
                     <div class="item">
                         <img src="<?= base_url('assets/images/products/Cafe Mocha.jpg') ?>" alt="">
+                        <div class="overlay">
+                            <a href="<?= base_url('/menu') ?>">View on menu</a>
+                        </div>
                         <p>Cafe Mocha</p>
                     </div>
                     <div class="item">
                         <img src="<?= base_url('assets/images/products/Caramel Macchiato.jpg') ?>" alt="">
+                        <div class="overlay">
+                            <a href="<?= base_url('/menu') ?>">View on menu</a>
+                        </div>
                         <p>Caramel Macchiato</p>
                     </div>
                 </div>

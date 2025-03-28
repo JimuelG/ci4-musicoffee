@@ -34,5 +34,10 @@ class Home extends BaseController
     {
         return view('about');
     }
+
+    public function loader()
+    {
+        return view('loader');
+    }
     
 }
