@@ -13,6 +13,7 @@ $routes->get('/about', 'Home::about');
 $routes->get('/products', 'Home::product');
 $routes->get('/menu', 'Menu::index');
 $routes->post('/addCart', 'Menu::addCart');
+$routes->get('/get-customer', 'Menu::getCustomerName');
 $routes->post('/set-customer', 'Menu::setCustomer');
 $routes->get('/orders', 'Menu::orders');
 $routes->post('/orders/remove', 'Menu::remove');

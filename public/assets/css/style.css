@@ -17,8 +17,7 @@ body {
 
 /* Nav Bar */
 .nav{
-    position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 999;
 }
 
@@ -55,7 +54,7 @@ body {
 .landing-page{
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     
 }
 

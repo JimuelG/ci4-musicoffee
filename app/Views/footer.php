@@ -67,8 +67,15 @@
                     document.querySelector(".preloader-section").style.display="none";
                 }, 500);
             }, 3000);
+            setTimeout(() => {
+                document.querySelectorAll('.logo-loader svg').forEach((svg) => {
+                    svg.style.fill = '#E8F2F1'; // Change the fill color after animation
+                });
+                document.querySelector('.preloader-section').style.backgroundColor = "#008080";
+            }, 1600);
+            
         });
-
+        
         $(document).ready(function(){
             updateOrderTotal();
 
@@ -76,10 +83,18 @@
                 window.location.href = "<?= base_url("/menu") ?>";
             });
 
-            if (!localStorage.getItem("customer_name")) {
-                $(".customer-modal").fadeIn();
-                $(".customer-modal").removeClass("hidden");
-            }
+            $.ajax({
+                url: "<?=  base_url('/get-customer') ?>",
+                type: "GET",
+                success: function (response) {
+                    if (!response.customer_name){
+                        $(".customer-modal").fadeIn().removeClass("hidden");
+                    }
+                },
+                error: function() {
+                    $(".customer-modal").removeClass("hidden");
+                }
+            });
 
             $(".customer-submit").click(function (){
                 let customerName = $(".customerName").val().trim();
@@ -88,8 +103,6 @@
                     alert("Please enter your name to continue.");
                     return;
                 }
-                
-                localStorage.setItem("customer_name", customerName);
 
                 $.ajax({
 
@@ -97,8 +110,10 @@
                     type: "POST",
                     data: { customer_name: customerName },
                     success: function (response) {
-                        $(".customer-modal").fadeOut();
-                        $(".customer-modal").addClass("hidden");
+                        if (response.status === 'success') {
+                            $(".customer-modal").fadeOut();
+                            $(".customer-modal").addClass("hidden");
+                        }
                     },
 
                     error: function () {

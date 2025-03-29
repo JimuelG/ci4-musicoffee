@@ -25,7 +25,9 @@ class Menu extends BaseController
     public function getCustomerName()
     {
         $session = session();
-        return $session->get('customer_name') ?? null;
+        return $this->response->setJSON([
+            'customer_name' => $session->get('customer_name') ?? null
+        ]);
     }
 
     public function index()
@@ -33,8 +35,9 @@ class Menu extends BaseController
         date_default_timezone_set("Asia/Manila");
         $p = new ProductModel();
         $o = new CartModel();
+        $session = session();
 
-        $customerName = $this->getCustomerName();
+        $customerName = $session->get('customer_name');
         $today = date("Y-m-d");
 
         $cartCount = $o->getOrdersByCustomer($customerName,$today)->countAllResults();
@@ -49,8 +52,9 @@ class Menu extends BaseController
     {
         $c = new CartModel();
         $request = service('request');
-        
-        $customerName = $this->request->getPost('customerName');
+        $session = session();
+
+        $customerName = $session->get('customer_name');
         $itemName = $request->getPost('productName');
         $size = $request->getPost('productSize');
         $quantity = $request->getPost('quantity');
@@ -73,8 +77,9 @@ class Menu extends BaseController
     {
         date_default_timezone_set("Asia/Manila");
         $o = new CartModel();
+        $session = session();
 
-        $customerName = "Jimuel Gaas";
+        $customerName = $session->get('customer_name');
         $today = date("Y-m-d");
 
         $orderItem['or'] = $o->getOrdersByCustomer($customerName, $today)->findAll();
@@ -104,8 +109,9 @@ class Menu extends BaseController
         $cartModel = new CartModel();
         $orderModel = new OrderModel();
         $orderItemsModel = new OrderItemsModel();
+        $session = session();
 
-        $customerName = 'Jimuel Gaas';
+        $customerName = $session->get('customer_name');
         $today = date("Y-m-d");
 
         $cartItems = $cartModel->getOrdersByCustomer($customerName,$today)->findAll();
@@ -157,7 +163,9 @@ class Menu extends BaseController
     public function getOrders()
     {
         $orderModel = new OrderModel();
-        $customerName = 'Jimuel Gaas';
+        $session = session();
+
+        $customerName = $session->get('customer_name');
 
         $orders = $orderModel->where('customer_name', $customerName)->findAll();
 

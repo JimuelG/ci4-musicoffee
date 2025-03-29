@@ -2,7 +2,7 @@
 <?= view('/loader') ?>
 
 <body>
-    <section class="nav">
+    <section class="nav primary">
         <div class="container">
             <div class="nav-bar">
                     <div class="left-nav">
