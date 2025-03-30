@@ -1,13 +1,26 @@
+/* PHONE */
 @media (max-width: 575px) {
     body {
         font-size: 14px;
     }
 
     .container {
-        padding: 5%;
+        padding: 0px 5%;
     }
 
     .menu-item {
         width: 45%;
+    }
+}
+
+/* DESKTOP */
+
+@media (min-width: 992px)  and (max-width: 1440px) {
+    .container {
+        padding: 0px 5%;
+    }
+
+    .menu-item {
+        width: 23%;
     }
 }
