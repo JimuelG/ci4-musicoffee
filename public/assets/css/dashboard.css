@@ -18,7 +18,9 @@ body {
 .side-bar {
     position: fixed;
     width: 20vw;
-    height: 100vh;
+    margin: 16px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .top {
@@ -29,12 +31,25 @@ body {
     height: 20vh;
     background-color: #023D4E;
     color: #E8F2F1;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.logo-text{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 32px 0px;
-    height: 80vh;
+    height: 76.5vh;
     background-color: #008080;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .links {
@@ -43,20 +58,47 @@ body {
     justify-items: center;
 }
 
-.links a {
-    padding: 16px 0px 16px 48px;
+.links .link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 0px 16px 32px;
     text-decoration: none;
     color: #E8F2F1;
     font-size: 20px;
+    margin: 2px 16px;
+    border-radius: 8px;
 }
 
-.links a:hover {
-    background-color: #023D4E;
 
+.links .link:hover {
+    background-color: #023D4E;
+    color: #E8F2F1;
+}
+
+.link.active{
+    background-color: #023D4E;
 }
 
 .dashboard {
     padding: 40px;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E8F2F1;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.logout:hover{
+    background-color: #023D4E;
 }
 
 /* Products */

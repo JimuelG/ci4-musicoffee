@@ -1,5 +1,5 @@
     <script src="<?= base_url("assets/js/dashboard.js") ?>"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="<?= base_url("/assets/js/jquery.min.js") ?>"></script>
     <script>
         $(document).ready(function(){
             
@@ -56,6 +56,14 @@
                     }
 
                 });
+            });
+
+            let currentUrl = window.location.href;
+
+            $(".links .link").each(function () {
+                if(this.href === currentUrl) {
+                    $(this).addClass("active");
+                }
             });
         });
     </script>
