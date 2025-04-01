@@ -1,0 +1,56 @@
+CRITICAL - 2025-04-01 15:00:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/messages]
+in APPPATH\Views\admin\messages.php on line 20.
+ 1 APPPATH\Views\admin\messages.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\messages.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\messages.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/messages', [], true)
+ 5 APPPATH\Controllers\Message.php(28): view('/admin/messages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Message->getMessage()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-01 15:22:10 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 13.
+ 1 APPPATH\Views\admin\order_details.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(106): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-01 15:22:39 --> ErrorException: Undefined variable $name
+[Method: GET, Route: admin/order/undefined]
+in APPPATH\Views\admin\order_details.php on line 13.
+ 1 APPPATH\Views\admin\order_details.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\order_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/order_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(106): view('admin/order_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->detail('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-01 15:35:07 --> ErrorException: Undefined variable $messagep
+[Method: GET, Route: admin/message/1]
+in APPPATH\Views\admin\message.php on line 9.
+ 1 APPPATH\Views\admin\message.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $messagep', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\message.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\admin\\message.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/admin/message', [], true)
+ 5 APPPATH\Controllers\Message.php(38): view('/admin/message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Message->getMessage('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

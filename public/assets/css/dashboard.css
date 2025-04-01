@@ -691,3 +691,40 @@ table td {
     background-color: #008080;
     color: #E8F2F1;
 }
+
+/* Messages */
+
+.messages{
+    padding: 40px;
+}
+
+.messages .table, .messages table{
+    width: 100%;
+}
+
+.messages .table th:nth-child(1){
+    text-align: left;
+    width: 30%;
+}
+
+.messages .table th:nth-child(2){
+    text-align: left;
+    width: 25%;
+}
+
+.messages .table th:nth-child(3){
+    text-align: left;
+    width: 15%;
+}
+
+.messages .table th:nth-child(4){
+    text-align: left;
+    width: 30%;
+}
+
+.messages .table tbody td{
+    padding: 24px 0;
+}
+
+/* Message Detail */
+

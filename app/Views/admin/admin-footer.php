@@ -65,6 +65,12 @@
                     $(this).addClass("active");
                 }
             });
+
+            $(".message_item").click(function (){
+                let messageId = $(this).data("id");
+                
+                window.location.href = "<?= base_url("/admin/message/") ?>" + messageId;
+            });
         });
     </script>
 </body>

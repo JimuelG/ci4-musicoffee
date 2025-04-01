@@ -442,7 +442,7 @@ body {
 .contact-right .sched{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
 }
 
 .contact-right .contact-sched h1{

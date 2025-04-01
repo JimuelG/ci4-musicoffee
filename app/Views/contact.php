@@ -14,29 +14,31 @@
         <div class="container">
             <div class="contact-body">
                 <div class="contact-left">
+                    <form action="<?= base_url('/send-message') ?>" method="POST" enctype="multipart/form-data">
                     <div class="form-body">
                         <div class="text-field">
                             <label>Name</label>
-                            <input type="text" required>
+                            <input name="message_name" type="text" required>
                             <span></span>
                         </div>
                         <div class="text-field">
                             <label>Email</label>
-                            <input type="text" required>
+                            <input name="message_email" type="text" required>
                             <span></span>
                         </div>
                         <div class="text-field">
                             <label>Phone</label>
-                            <input type="text" required>
+                            <input name="message_phone" type="text" required>
                             <span></span>
                         </div>
                         <div class="text-field">
                             <label>Message us</label>
-                            <textarea type="text" rows="8" cols="50" required></textarea>
+                            <textarea name="message_body" type="text" rows="8" cols="50" required></textarea>
                             <span></span>
                         </div>
-                        <input class="contact-submit" type="button" value="Send Message">
+                        <input class="contact-submit" type="submit" value="Send Message">
                     </div>
+                    </form>
                 </div>
                 <div class="contact-right">
                     <div class="contact-sched">

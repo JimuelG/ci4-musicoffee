@@ -123,33 +123,48 @@
             });
 
             $(".add-to-cart").click(function(e){
-                let customerName = localStorage.getItem("customer_name");
+                
+                e.preventDefault();
 
-                if (customerName) {
-                    let productId = $(this).data("id");
-                    let productName = $(this).data("name");
-                    let productPrice = $(this).data("price");
-                    let productImg = $(this).data("img");
+                $.ajax({
+                    url: '<?= base_url('/get-customer') ?>',
+                    method: "GET",
+                    dataType: 'json',
+                    success: function(response) {
+                        let customerName = response.customer_name;
 
-                    $(".modal-img").attr("src", productImg);
-                    $(".modal-name").text(productName);
-                    $(".total-price").text("Total P " + productPrice);
-                    $(".cart-modal").removeClass("hidden");
-                    $(".quantity-val").val(1);
-                    
-                    $(".size-16oz").text("16oz - P " + productPrice + ".00");
-                    $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
+                        if (customerName) {
+                            let productId = $(this).data("id");
+                            let productName = $(this).data("name");
+                            let productPrice = $(this).data("price");
+                            let productImg = $(this).data("img");
 
-                    $("#16oz").data("price", productPrice);
-                    $("#22oz").data("price", productPrice + 20);
+                            $(".modal-img").attr("src", productImg);
+                            $(".modal-name").text(productName);
+                            $(".total-price").text("Total P " + productPrice);
+                            $(".cart-modal").removeClass("hidden");
+                            $(".quantity-val").val(1);
+                            
+                            $(".size-16oz").text("16oz - P " + productPrice + ".00");
+                            $(".size-22oz").text("22oz - P " + (productPrice + 20) + ".00");
 
-                    $(".modal-name").attr("data-price", productPrice);
-                    $("#16oz").prop("checked", true);
-                    updateTotal();
-                } else {
-                    alert("Please enter your name first to place an order.");
-                    e.preventDefault();            
-                };
+                            $("#16oz").data("price", productPrice);
+                            $("#22oz").data("price", productPrice + 20);
+
+                            $(".modal-name").attr("data-price", productPrice);
+                            $("#16oz").prop("checked", true);
+                        updateTotal();
+                        } else {
+                            alert("Please enter your name first to place an order.");
+                            e.preventDefault();            
+                        };
+                    },
+                    error: function() {
+                        alert("Error retrieving customer name.");
+                    }
+                });
+
+                
                 
             });
 
