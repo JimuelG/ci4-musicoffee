@@ -13,8 +13,8 @@
                                     <div class="edit-left">
                                         <img src="<?= base_url("assets/images/products/" .$product['pictureUrl']) ?>" alt="">                            
                                     </div>
+                                    <form action="" method="POST">
                                     <div class="edit-right">
-                                        
                                         <div class="input-forms">
                                             <label for="name">Name</label>
                                             <input id="name" type="text" class="name" value="<?= $product['name'] ?>">
@@ -39,9 +39,10 @@
                                         </div>
                                         <div class="btn">
                                             <input class="edit-btn-back" type="button" value="back">
-                                            <input class="edit-btn-save" type="button" value="save">
+                                            <input class="edit-btn-save" type="submit" value="save">
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                         </div>
                     </div>

@@ -125,7 +125,7 @@
             $(".add-to-cart").click(function(e){
                 
                 e.preventDefault();
-
+                let button = $(this);
                 $.ajax({
                     url: '<?= base_url('/get-customer') ?>',
                     method: "GET",
@@ -134,10 +134,10 @@
                         let customerName = response.customer_name;
 
                         if (customerName) {
-                            let productId = $(this).data("id");
-                            let productName = $(this).data("name");
-                            let productPrice = $(this).data("price");
-                            let productImg = $(this).data("img");
+                            let productId = button.data("id");
+                            let productName = button.data("name");
+                            let productPrice = button.data("price");
+                            let productImg = button.data("img");
 
                             $(".modal-img").attr("src", productImg);
                             $(".modal-name").text(productName);
