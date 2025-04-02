@@ -13,29 +13,30 @@
                                     <div class="edit-left">
                                         <img src="<?= base_url("assets/images/products/" .$product['pictureUrl']) ?>" alt="">                            
                                     </div>
-                                    <form action="" method="POST">
+                                    <form action="<?= base_url('/admin/edit/save') ?>" method="POST">
                                     <div class="edit-right">
                                         <div class="input-forms">
+                                            <input name="edit_id" value="<?= $product['pId'] ?>" type="text" hidden>
                                             <label for="name">Name</label>
-                                            <input id="name" type="text" class="name" value="<?= $product['name'] ?>">
+                                            <input name="edit_name" type="text" class="name" value="<?= $product['name'] ?>">
                                             <label for="price">Price</label>
-                                            <input type="text" class="price" value="<?= $product['price'] ?>">
+                                            <input name="edit_price" type="text" class="price" value="<?= $product['price'] ?>">
                                             <label for="description">Description</label>
-                                            <textarea class="description" rows="4" cols="50"><?php
+                                            <textarea name="edit_description" class="description" rows="4" cols="50"><?php
                                                     echo $product['description'] ?></textarea>
                                             <label for="category">Category</label>
-                                            <select name="category" id="category">
+                                            <select name="edit_category" id="category">
                                                 <option value="Coffee">Coffee</option>
                                                 <option value="Coffee/Hot">Coffee/Hot</option>
                                             </select>
                                             <label for="status">Status</label>
-                                            <select name="status" id="status">
+                                            <select name="edit_status" id="status">
                                                 <option value="active">active</option>
                                                 <option value="inactive">inactive</option>
                                             </select>
                                             <br>
                                             <label for="file">Upload Product Image</label>
-                                            <input class="file" type="file" name="file">
+                                            <input class="file" type="file" name="edit_file">
                                         </div>
                                         <div class="btn">
                                             <input class="edit-btn-back" type="button" value="back">

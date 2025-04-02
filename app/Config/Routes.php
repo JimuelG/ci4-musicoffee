@@ -29,6 +29,7 @@ $routes->get('/admin/products', 'Admin::products');
 $routes->get('/admin/messages', 'Message::getMessages');
 $routes->get('/admin/message/(:any)', 'Message::getMessage/$1');
 $routes->get('/admin/product/edit/(:any)', 'Admin::edit/$1');
+$routes->post('/admin/edit/save', 'Admin::save');
 $routes->post('/admin/add', 'Admin::addProduct');
 $routes->get('/admin/orders', 'Admin::getOrders');
 $routes->get('/admin/order/(:any)', 'Admin::detail/$1');

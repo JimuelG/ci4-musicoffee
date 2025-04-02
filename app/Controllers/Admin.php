@@ -130,7 +130,32 @@ class Admin extends BaseController
 
     public function save()
     {
+        $product = new ProductModel();
+
+        $data = [
+            'name' => $this->request->getPost('edit_name'),
+            'description' => $this->request->getPost('edit_description'),
+            'category' => $this->request->getPost('edit_category'),
+            'price' => $this->request->getPost('edit_price'),
+            'status' => $this->request->getPost('edit_status')
+        ];
+
+        $file = $this->request->getFile('edit_file');
+        if($file){
+            if ($file && $file->isValid() && !$file->hasMoved()) {
+                $allowedTypes = ['image/jpeg', 'image/png'];
+                if (in_array($file->getMimeType(), $allowedTypes)) {
+                    $file->move(FCPATH . 'assets/images/products/', $file->getName());
+                    $data['pictureUrl'] = $file->getName();
+                } else {
+                    return redirect()->back()->with('error', 'Invalid file type. Only JPG and PNG are allowed.');
+                }
+            }
+        }
         
+        $id = $this->request->getPost('edit_id');
+        
+        $product->where('pId', $id)->set($data)->update();
     }
 
     public function updateStatus()
